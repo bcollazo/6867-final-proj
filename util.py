@@ -2,6 +2,14 @@ from mnist import *
 from spect import *
 import numpy as np
 
+def sign(x):
+	if x < 0:
+		return -1
+	else:
+		return 1
+
+vsign = np.vectorize(sign)
+
 def load_data(n, dataset):
 	print "Loading Data..."
 	if n == 1:

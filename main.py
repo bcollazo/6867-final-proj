@@ -10,8 +10,8 @@ from sklearn.datasets import load_iris, fetch_mldata
 from sklearn.cross_validation import train_test_split
 
 # DATASET_NAME = 'MNIST original'
-DATASET_NAME = 'iris'
-# DATASET_NAME = 'australian'
+# DATASET_NAME = 'iris'
+DATASET_NAME = 'australian'
 
 def train(clf, x_train, y_train):
 	a = time()
@@ -39,27 +39,28 @@ def main():
 	print x_test.shape, y_test.shape
 	print np.unique(y_train)
 
-	print "=== KernelPerceptron"
-	clf = KernelPerceptron(kernel)
-	train(clf, x_train, y_train)
-	test(clf, x_test, y_test)
-
 	# print "=== LinearSVM"
 	# clf = svm.LinearSVC()
 	# train(clf, x_train, y_train)
 	# test(clf, x_test, y_test)
 
-	# print "=== Perceptron"
-	# # clf = Perceptron()
+	print "=== Perceptron"
+	clf = Perceptron()
 	# clf = MultiClassifier(Perceptron)
-	# train(clf, x_train, y_train)
-	# test(clf, x_test, y_test)
+	train(clf, x_train, y_train)
+	test(clf, x_test, y_test)
 
-	# print "=== VotedPerceptron"
-	# # clf = VotedPerceptron()
+	print "=== VotedPerceptron"
+	clf = VotedPerceptron()
 	# clf = MultiClassifier(VotedPerceptron)
-	# train(clf, x_train, y_train)
-	# test(clf, x_test, y_test)
+	train(clf, x_train, y_train)
+	test(clf, x_test, y_test)
+
+	print "=== KernelPerceptron"
+	clf = KernelPerceptron(linear)
+	train(clf, x_train, y_train)
+	test(clf, x_test, y_test)
+
 
 if __name__ == '__main__':
 	main()

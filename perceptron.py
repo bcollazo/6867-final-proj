@@ -1,11 +1,6 @@
 import numpy as np
 import math
-
-def sign(x):
-	if x < 0:
-		return -1
-	else:
-		return 1
+from util import *
 
 class Perceptron():
 	def __init__(self):
@@ -14,22 +9,18 @@ class Perceptron():
 	def fit(self, X, Y, T=10):
 		v = np.zeros(X[0].shape)
 		for j in xrange(T):
-			error = 0
 			for i in xrange(len(X)):
 				x = X[i]
 				y = Y[i]
 				
 				g = sign(v.dot(x))
 				if g != y:
-					error += 1
 					v = v + y*x
-			if error == 0:
-				print "0 error achieved"
-				break
 		self.v = v
 
 	def predict(self, X):
-		return np.array([sign(self.v.dot(x)) for x in X])
+		# return np.array([sign(self.v.dot(x)) for x in X])
+		return vsign(self.value_predict(X))
 
 	def value_predict(self, X):
 		return np.array([self.v.dot(x) for x in X])
@@ -62,10 +53,11 @@ class VotedPerceptron():
 		self.vectors = vs
 
 	def predict(self, X):
-		guesses = [sign(sum([self.weights[j]*
-			sign(x.dot(self.vectors[j])) 
-			for j in xrange(self.k)])) for x in X]
-		return np.array(guesses)
+		# guesses = [sign(sum([self.weights[j]*
+		# 	sign(x.dot(self.vectors[j])) 
+		# 	for j in xrange(self.k)])) for x in X]
+		# return np.array(guesses)
+		return vsign(self.value_predict(X))
 
 	def value_predict(self, X):
 		return [sum([self.weights[j]*
