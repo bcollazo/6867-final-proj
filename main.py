@@ -9,9 +9,13 @@ from sklearn import svm, linear_model
 from sklearn.datasets import load_iris, fetch_mldata
 from sklearn.cross_validation import train_test_split
 
-# DATASET_NAME = 'MNIST original'
-# DATASET_NAME = 'iris'
-DATASET_NAME = 'australian'
+# DATASET_NAME = 'MNIST original'	# Big Dataset, Multiclass
+# DATASET_NAME = 'iris'	# Small Dataset, Multiclass
+# DATASET_NAME = 'australian'	# Small Dataset, Binary
+# DATASET_NAME = 'Translation Initiation Site Pred'
+DATASET_NAME = 'SensIT Vehicle (combined)'
+# DATASET_NAME = 'Central Nervous System'
+# DATASET_NAME = 'leukemia'	# Small Dataset, High Dimension, Binary
 
 def train(clf, x_train, y_train):
 	a = time()
@@ -27,11 +31,8 @@ def test(clf, x_test, y_test):
 	error = countErrors(g, y_test)
 	print "Errors: %d (%2.f %% of test_dataset)"%(error, error * 100 / float(y_test.shape[0]))
 
-def linear(x, z):
-	return x.dot(z)
-
 def main():
-	print "Loading Data..."
+	print "Loading Data...", DATASET_NAME
 	dataset = fetch_mldata(DATASET_NAME)
 	x_train, x_test, y_train, y_test = train_test_split(dataset.data,
 		dataset.target)
@@ -45,19 +46,20 @@ def main():
 	# test(clf, x_test, y_test)
 
 	print "=== Perceptron"
-	clf = Perceptron()
-	# clf = MultiClassifier(Perceptron)
-	train(clf, x_train, y_train)
-	test(clf, x_test, y_test)
-
-	print "=== VotedPerceptron"
-	clf = VotedPerceptron()
-	# clf = MultiClassifier(VotedPerceptron)
+	# clf = Perceptron()
+	clf = MultiClassifier(Perceptron)
 	train(clf, x_train, y_train)
 	test(clf, x_test, y_test)
 
 	print "=== KernelPerceptron"
-	clf = KernelPerceptron(linear)
+	# clf = KernelPerceptron(linear)
+	clf = MultiClassifier(KernelPerceptron)
+	train(clf, x_train, y_train)
+	test(clf, x_test, y_test)
+
+	print "=== VotedPerceptron"
+	# clf = VotedPerceptron()
+	clf = MultiClassifier(VotedPerceptron)
 	train(clf, x_train, y_train)
 	test(clf, x_test, y_test)
 

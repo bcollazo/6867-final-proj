@@ -6,7 +6,7 @@ class Perceptron():
 	def __init__(self):
 		self.v = None
 
-	def fit(self, X, Y, T=10):
+	def fit(self, X, Y, T=GLOBAL_EPOCH):
 		v = np.zeros(X[0].shape)
 		for j in xrange(T):
 			for i in xrange(len(X)):
@@ -19,7 +19,6 @@ class Perceptron():
 		self.v = v
 
 	def predict(self, X):
-		# return np.array([sign(self.v.dot(x)) for x in X])
 		return vsign(self.value_predict(X))
 
 	def value_predict(self, X):
@@ -31,7 +30,7 @@ class VotedPerceptron():
 		self.vectors = []
 		self.k = 0
 
-	def fit(self, X, Y, T=10):
+	def fit(self, X, Y, T=GLOBAL_EPOCH):
 		k = 0
 		vs = [np.zeros(X[0].shape)]
 		cs = [0]
@@ -53,10 +52,6 @@ class VotedPerceptron():
 		self.vectors = vs
 
 	def predict(self, X):
-		# guesses = [sign(sum([self.weights[j]*
-		# 	sign(x.dot(self.vectors[j])) 
-		# 	for j in xrange(self.k)])) for x in X]
-		# return np.array(guesses)
 		return vsign(self.value_predict(X))
 
 	def value_predict(self, X):

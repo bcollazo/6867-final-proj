@@ -1,21 +1,14 @@
 import numpy as np
 import math
-
-def sign(x):
-	if x < 0:
-		return -1
-	else:
-		return 1
-
-vsign = np.vectorize(sign)
+from util import *
 
 class KernelPerceptron():
-	def __init__(self, kernel):
+	def __init__(self, kernel=KERNEL):
 		self.alphas = None
 		self.kernel = kernel
 		self.kMatrix = {}
 
-	def fit(self, X, Y, T=10):
+	def fit(self, X, Y, T=GLOBAL_EPOCH):
 		self.X = X
 		self.Y = Y
 		n = len(X)
@@ -45,8 +38,8 @@ class KernelPerceptron():
 		return vsign(self.value_predict(X))
 
 	def value_predict(self, X):
-		return np.array([sign(self.alphas.dot(
-			self.Y*np.array([self.kernel(self.X[i], x) for i in range(self.n)])))
+		return np.array([self.alphas.dot(
+			self.Y*np.array([self.kernel(self.X[i], x) for i in range(self.n)]))
 			for x in X])
 
 class KernelVotedPerceptron():
@@ -55,7 +48,7 @@ class KernelVotedPerceptron():
 		self.vectors = []
 		self.k = 0
 
-	def fit(self, X, Y, T=10):
+	def fit(self, X, Y, T=GLOBAL_EPOCH):
 		k = 0
 		vs = [np.zeros(X[0].shape)]
 		cs = [0]

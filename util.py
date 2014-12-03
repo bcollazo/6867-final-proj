@@ -2,6 +2,17 @@ from mnist import *
 from spect import *
 import numpy as np
 
+# Perceptron Settings
+GLOBAL_EPOCH = 10
+# Kernel Settings
+DEGREE = 1
+def linear(x, z):
+	return x.dot(z)
+def poly_kernel(x, z, d=DEGREE):
+	return x.dot(z)**d
+KERNEL = poly_kernel
+
+# Helper Functions ===
 def sign(x):
 	if x < 0:
 		return -1
