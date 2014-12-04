@@ -1,0 +1,3600 @@
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 1
+Learning Rate = 0.01
+=== LinearSVM
+Training Time: 0.0207870006561
+Prediction Time: 0.0178020000458
+Errors: 4 (11 % of test_dataset)
+=== SVM
+Training Time: 0.00119495391846
+Prediction Time: 0.000349998474121
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.00122308731079
+Prediction Time: 8.51154327393e-05
+Errors: 3 ( 8 % of test_dataset)
+=== Perceptron
+Training Time: 0.00271892547607
+Prediction Time: 0.000383138656616
+Errors: 13 (34 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00283813476562
+Prediction Time: 0.0110280513763
+Errors: 6 (16 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.194420814514
+Prediction Time: 0.0679750442505
+Errors: 13 (34 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0626590251923
+Prediction Time: 0.845629930496
+Errors: 15 (39 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 1
+Learning Rate = 0.01
+=== LinearSVM
+Training Time: 0.00104689598083
+Prediction Time: 7.58171081543e-05
+Errors: 1 ( 3 % of test_dataset)
+=== SVM
+Training Time: 0.000818014144897
+Prediction Time: 0.000248908996582
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000792980194092
+Prediction Time: 7.70092010498e-05
+Errors: 3 ( 8 % of test_dataset)
+=== Perceptron
+Training Time: 0.00266790390015
+Prediction Time: 0.000369071960449
+Errors: 9 (24 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00279092788696
+Prediction Time: 0.0102260112762
+Errors: 2 ( 5 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.194895029068
+Prediction Time: 0.0689771175385
+Errors: 9 (24 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0612540245056
+Prediction Time: 0.75603890419
+Errors: 9 (24 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 1
+Learning Rate = 0.01
+=== LinearSVM
+Training Time: 0.00105500221252
+Prediction Time: 7.70092010498e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000772953033447
+Prediction Time: 0.000240087509155
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000792980194092
+Prediction Time: 8.32080841064e-05
+Errors: 7 (18 % of test_dataset)
+=== Perceptron
+Training Time: 0.00255703926086
+Prediction Time: 0.000366926193237
+Errors: 11 (29 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00268602371216
+Prediction Time: 0.00915718078613
+Errors: 3 ( 8 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.19322013855
+Prediction Time: 0.0669279098511
+Errors: 11 (29 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.048182964325
+Prediction Time: 0.598838090897
+Errors: 27 (71 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 1
+Learning Rate = 0.01
+=== LinearSVM
+Training Time: 0.00108003616333
+Prediction Time: 7.9870223999e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.00079607963562
+Prediction Time: 0.000245094299316
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000782012939453
+Prediction Time: 7.31945037842e-05
+Errors: 2 ( 5 % of test_dataset)
+=== Perceptron
+Training Time: 0.0028440952301
+Prediction Time: 0.000385046005249
+Errors: 10 (26 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00302195549011
+Prediction Time: 0.0116450786591
+Errors: 4 (11 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.193260908127
+Prediction Time: 0.0668430328369
+Errors: 10 (26 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0655918121338
+Prediction Time: 0.930467844009
+Errors: 14 (37 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 1
+Learning Rate = 0.01
+=== LinearSVM
+Training Time: 0.00103998184204
+Prediction Time: 7.70092010498e-05
+Errors: 5 (13 % of test_dataset)
+=== SVM
+Training Time: 0.000832080841064
+Prediction Time: 0.000257015228271
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000828981399536
+Prediction Time: 7.79628753662e-05
+Errors: 5 (13 % of test_dataset)
+=== Perceptron
+Training Time: 0.00265908241272
+Prediction Time: 0.000370025634766
+Errors: 9 (24 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00276303291321
+Prediction Time: 0.0103321075439
+Errors: 5 (13 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.191684961319
+Prediction Time: 0.067969083786
+Errors: 9 (24 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0593819618225
+Prediction Time: 0.665656089783
+Errors: 15 (39 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 1
+Learning Rate = 0.1
+=== LinearSVM
+Training Time: 0.00105214118958
+Prediction Time: 7.70092010498e-05
+Errors: 4 (11 % of test_dataset)
+=== SVM
+Training Time: 0.000783920288086
+Prediction Time: 0.000247001647949
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000777006149292
+Prediction Time: 7.29560852051e-05
+Errors: 5 (13 % of test_dataset)
+=== Perceptron
+Training Time: 0.00264286994934
+Prediction Time: 0.000367879867554
+Errors: 5 (13 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0027711391449
+Prediction Time: 0.00998783111572
+Errors: 5 (13 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.195865869522
+Prediction Time: 0.0684359073639
+Errors: 5 (13 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0587129592896
+Prediction Time: 0.661987066269
+Errors: 11 (29 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 1
+Learning Rate = 0.1
+=== LinearSVM
+Training Time: 0.00102305412292
+Prediction Time: 7.60555267334e-05
+Errors: 1 ( 3 % of test_dataset)
+=== SVM
+Training Time: 0.000818014144897
+Prediction Time: 0.000251054763794
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000852108001709
+Prediction Time: 7.9870223999e-05
+Errors: 1 ( 3 % of test_dataset)
+=== Perceptron
+Training Time: 0.00269293785095
+Prediction Time: 0.000369071960449
+Errors: 5 (13 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0028920173645
+Prediction Time: 0.0110771656036
+Errors: 3 ( 8 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.191008090973
+Prediction Time: 0.0676410198212
+Errors: 5 (13 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.069041967392
+Prediction Time: 0.764187097549
+Errors: 18 (47 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 1
+Learning Rate = 0.1
+=== LinearSVM
+Training Time: 0.00106287002563
+Prediction Time: 8.10623168945e-05
+Errors: 6 (16 % of test_dataset)
+=== SVM
+Training Time: 0.000758171081543
+Prediction Time: 0.000235080718994
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000790119171143
+Prediction Time: 7.29560852051e-05
+Errors: 6 (16 % of test_dataset)
+=== Perceptron
+Training Time: 0.00263404846191
+Prediction Time: 0.000370979309082
+Errors: 10 (26 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00276184082031
+Prediction Time: 0.0101721286774
+Errors: 7 (18 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.19210600853
+Prediction Time: 0.0682861804962
+Errors: 10 (26 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0563950538635
+Prediction Time: 0.666244983673
+Errors: 20 (53 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 1
+Learning Rate = 0.1
+=== LinearSVM
+Training Time: 0.00104308128357
+Prediction Time: 0.000108003616333
+Errors: 3 ( 8 % of test_dataset)
+=== SVM
+Training Time: 0.000783205032349
+Prediction Time: 0.000246047973633
+Errors: 0 ( 0 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000776052474976
+Prediction Time: 7.39097595215e-05
+Errors: 3 ( 8 % of test_dataset)
+=== Perceptron
+Training Time: 0.0026490688324
+Prediction Time: 0.000393867492676
+Errors: 9 (24 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00285983085632
+Prediction Time: 0.0100069046021
+Errors: 4 (11 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.189821004868
+Prediction Time: 0.0657620429993
+Errors: 9 (24 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0650329589844
+Prediction Time: 0.656579971313
+Errors: 14 (37 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 1
+Learning Rate = 0.1
+=== LinearSVM
+Training Time: 0.000998020172119
+Prediction Time: 7.9870223999e-05
+Errors: 1 ( 3 % of test_dataset)
+=== SVM
+Training Time: 0.000788927078247
+Prediction Time: 0.000237941741943
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.00079607963562
+Prediction Time: 0.000111103057861
+Errors: 4 (11 % of test_dataset)
+=== Perceptron
+Training Time: 0.00261187553406
+Prediction Time: 0.000372171401978
+Errors: 15 (39 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00280094146729
+Prediction Time: 0.0100347995758
+Errors: 4 (11 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.190566062927
+Prediction Time: 0.0662980079651
+Errors: 15 (39 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0562851428986
+Prediction Time: 0.651875019073
+Errors: 9 (24 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 1
+Learning Rate = 1
+=== LinearSVM
+Training Time: 0.00101613998413
+Prediction Time: 7.89165496826e-05
+Errors: 0 ( 0 % of test_dataset)
+=== SVM
+Training Time: 0.000883102416992
+Prediction Time: 0.000257968902588
+Errors: 0 ( 0 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000789880752563
+Prediction Time: 8.20159912109e-05
+Errors: 3 ( 8 % of test_dataset)
+=== Perceptron
+Training Time: 0.00262904167175
+Prediction Time: 0.000365018844604
+Errors: 7 (18 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00272989273071
+Prediction Time: 0.00979495048523
+Errors: 6 (16 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.189654827118
+Prediction Time: 0.0655858516693
+Errors: 7 (18 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.057804107666
+Prediction Time: 0.649110078812
+Errors: 22 (58 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 1
+Learning Rate = 1
+=== LinearSVM
+Training Time: 0.00101900100708
+Prediction Time: 7.70092010498e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000793933868408
+Prediction Time: 0.000280141830444
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.00084114074707
+Prediction Time: 8.10623168945e-05
+Errors: 8 (21 % of test_dataset)
+=== Perceptron
+Training Time: 0.00256395339966
+Prediction Time: 0.000372171401978
+Errors: 11 (29 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00274109840393
+Prediction Time: 0.00939798355103
+Errors: 7 (18 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.189352989197
+Prediction Time: 0.0662360191345
+Errors: 11 (29 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0567860603333
+Prediction Time: 0.623911142349
+Errors: 24 (63 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 1
+Learning Rate = 1
+=== LinearSVM
+Training Time: 0.00123500823975
+Prediction Time: 7.70092010498e-05
+Errors: 1 ( 3 % of test_dataset)
+=== SVM
+Training Time: 0.000800132751465
+Prediction Time: 0.000240087509155
+Errors: 0 ( 0 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000822067260742
+Prediction Time: 7.60555267334e-05
+Errors: 1 ( 3 % of test_dataset)
+=== Perceptron
+Training Time: 0.00270891189575
+Prediction Time: 0.00037407875061
+Errors: 6 (16 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00285196304321
+Prediction Time: 0.0110709667206
+Errors: 8 (21 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.191132068634
+Prediction Time: 0.0659439563751
+Errors: 6 (16 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0690410137177
+Prediction Time: 0.842524051666
+Errors: 12 (32 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 1
+Learning Rate = 1
+=== LinearSVM
+Training Time: 0.00105905532837
+Prediction Time: 7.82012939453e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000785112380981
+Prediction Time: 0.000253915786743
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000785112380981
+Prediction Time: 7.48634338379e-05
+Errors: 2 ( 5 % of test_dataset)
+=== Perceptron
+Training Time: 0.00275897979736
+Prediction Time: 0.000364065170288
+Errors: 8 (21 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00294804573059
+Prediction Time: 0.0120959281921
+Errors: 6 (16 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.190701007843
+Prediction Time: 0.066675901413
+Errors: 8 (21 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0697150230408
+Prediction Time: 1.08488512039
+Errors: 19 (50 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 1
+Learning Rate = 1
+=== LinearSVM
+Training Time: 0.00101900100708
+Prediction Time: 7.79628753662e-05
+Errors: 0 ( 0 % of test_dataset)
+=== SVM
+Training Time: 0.000789880752563
+Prediction Time: 0.000234842300415
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000781059265137
+Prediction Time: 7.41481781006e-05
+Errors: 10 (26 % of test_dataset)
+=== Perceptron
+Training Time: 0.00266885757446
+Prediction Time: 0.000375032424927
+Errors: 4 (11 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00275993347168
+Prediction Time: 0.0102000236511
+Errors: 7 (18 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.192203998566
+Prediction Time: 0.0665068626404
+Errors: 4 (11 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0683791637421
+Prediction Time: 0.686012029648
+Errors: 21 (55 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 1
+Learning Rate = 10
+=== LinearSVM
+Training Time: 0.000983953475952
+Prediction Time: 7.60555267334e-05
+Errors: 3 ( 8 % of test_dataset)
+=== SVM
+Training Time: 0.000808000564575
+Prediction Time: 0.000247955322266
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000779867172241
+Prediction Time: 7.20024108887e-05
+Errors: 15 (39 % of test_dataset)
+=== Perceptron
+Training Time: 0.00257301330566
+Prediction Time: 0.000365018844604
+Errors: 6 (16 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00276803970337
+Prediction Time: 0.00943899154663
+Errors: 6 (16 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.190799951553
+Prediction Time: 0.0679931640625
+Errors: 6 (16 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0491750240326
+Prediction Time: 0.571342945099
+Errors: 14 (37 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 1
+Learning Rate = 10
+=== LinearSVM
+Training Time: 0.0010039806366
+Prediction Time: 7.89165496826e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000850915908813
+Prediction Time: 0.000248908996582
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000787019729614
+Prediction Time: 7.5101852417e-05
+Errors: 4 (11 % of test_dataset)
+=== Perceptron
+Training Time: 0.00258088111877
+Prediction Time: 0.000365018844604
+Errors: 7 (18 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00270795822144
+Prediction Time: 0.00960302352905
+Errors: 4 (11 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.1895570755
+Prediction Time: 0.066967010498
+Errors: 7 (18 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0603930950165
+Prediction Time: 0.669052839279
+Errors: 13 (34 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 1
+Learning Rate = 10
+=== LinearSVM
+Training Time: 0.000995874404907
+Prediction Time: 8.20159912109e-05
+Errors: 3 ( 8 % of test_dataset)
+=== SVM
+Training Time: 0.00075101852417
+Prediction Time: 0.000280857086182
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000805139541626
+Prediction Time: 7.70092010498e-05
+Errors: 2 ( 5 % of test_dataset)
+=== Perceptron
+Training Time: 0.0026319026947
+Prediction Time: 0.000395059585571
+Errors: 17 (45 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00277996063232
+Prediction Time: 0.0104441642761
+Errors: 8 (21 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.192787885666
+Prediction Time: 0.0681629180908
+Errors: 17 (45 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.057904958725
+Prediction Time: 0.783549070358
+Errors: 27 (71 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 1
+Learning Rate = 10
+=== LinearSVM
+Training Time: 0.0010449886322
+Prediction Time: 7.70092010498e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000806093215942
+Prediction Time: 0.000239133834839
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000825881958008
+Prediction Time: 8.01086425781e-05
+Errors: 8 (21 % of test_dataset)
+=== Perceptron
+Training Time: 0.00280094146729
+Prediction Time: 0.000372886657715
+Errors: 5 (13 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00298285484314
+Prediction Time: 0.0123021602631
+Errors: 6 (16 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.192248106003
+Prediction Time: 0.0663340091705
+Errors: 5 (13 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0716969966888
+Prediction Time: 1.04778790474
+Errors: 10 (26 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 1
+Learning Rate = 10
+=== LinearSVM
+Training Time: 0.00101900100708
+Prediction Time: 8.98838043213e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000856161117554
+Prediction Time: 0.000251054763794
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000792980194092
+Prediction Time: 7.5101852417e-05
+Errors: 7 (18 % of test_dataset)
+=== Perceptron
+Training Time: 0.00268888473511
+Prediction Time: 0.000365018844604
+Errors: 11 (29 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00278615951538
+Prediction Time: 0.0107140541077
+Errors: 5 (13 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.190403938293
+Prediction Time: 0.0677618980408
+Errors: 11 (29 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0600390434265
+Prediction Time: 0.790504932404
+Errors: 13 (34 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 1
+Learning Rate = 100
+=== LinearSVM
+Training Time: 0.000993967056274
+Prediction Time: 7.60555267334e-05
+Errors: 4 (11 % of test_dataset)
+=== SVM
+Training Time: 0.000764131546021
+Prediction Time: 0.000239133834839
+Errors: 3 ( 8 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000797986984253
+Prediction Time: 7.70092010498e-05
+Errors: 4 (11 % of test_dataset)
+=== Perceptron
+Training Time: 0.00266599655151
+Prediction Time: 0.000365972518921
+Errors: 12 (32 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00281000137329
+Prediction Time: 0.0105748176575
+Errors: 7 (18 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.191552877426
+Prediction Time: 0.068470954895
+Errors: 12 (32 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0653710365295
+Prediction Time: 0.815387010574
+Errors: 9 (24 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 1
+Learning Rate = 100
+=== LinearSVM
+Training Time: 0.000988960266113
+Prediction Time: 7.9870223999e-05
+Errors: 4 (11 % of test_dataset)
+=== SVM
+Training Time: 0.000794887542725
+Prediction Time: 0.000246047973633
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000833034515381
+Prediction Time: 7.9870223999e-05
+Errors: 1 ( 3 % of test_dataset)
+=== Perceptron
+Training Time: 0.00268316268921
+Prediction Time: 0.000370025634766
+Errors: 8 (21 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00282692909241
+Prediction Time: 0.0105271339417
+Errors: 7 (18 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.192466974258
+Prediction Time: 0.0661520957947
+Errors: 8 (21 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.059730052948
+Prediction Time: 0.76283121109
+Errors: 16 (42 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 1
+Learning Rate = 100
+=== LinearSVM
+Training Time: 0.0010998249054
+Prediction Time: 8.9168548584e-05
+Errors: 1 ( 3 % of test_dataset)
+=== SVM
+Training Time: 0.000808954238892
+Prediction Time: 0.000256061553955
+Errors: 0 ( 0 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000869035720825
+Prediction Time: 8.98838043213e-05
+Errors: 8 (21 % of test_dataset)
+=== Perceptron
+Training Time: 0.00261998176575
+Prediction Time: 0.00036883354187
+Errors: 8 (21 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00279998779297
+Prediction Time: 0.0102519989014
+Errors: 2 ( 5 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.190272808075
+Prediction Time: 0.0674438476562
+Errors: 8 (21 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0674109458923
+Prediction Time: 0.63366317749
+Errors: 8 (21 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 1
+Learning Rate = 100
+=== LinearSVM
+Training Time: 0.00100111961365
+Prediction Time: 7.70092010498e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000794887542725
+Prediction Time: 0.000247955322266
+Errors: 0 ( 0 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000836133956909
+Prediction Time: 8.01086425781e-05
+Errors: 2 ( 5 % of test_dataset)
+=== Perceptron
+Training Time: 0.00268316268921
+Prediction Time: 0.000365972518921
+Errors: 9 (24 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00285005569458
+Prediction Time: 0.0110740661621
+Errors: 6 (16 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.190603971481
+Prediction Time: 0.0660429000854
+Errors: 9 (24 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0691239833832
+Prediction Time: 0.896372795105
+Errors: 13 (34 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 1
+Learning Rate = 100
+=== LinearSVM
+Training Time: 0.000993013381958
+Prediction Time: 7.39097595215e-05
+Errors: 6 (16 % of test_dataset)
+=== SVM
+Training Time: 0.000722169876099
+Prediction Time: 0.000236034393311
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.00077486038208
+Prediction Time: 7.10487365723e-05
+Errors: 9 (24 % of test_dataset)
+=== Perceptron
+Training Time: 0.00260996818542
+Prediction Time: 0.000369071960449
+Errors: 7 (18 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00276279449463
+Prediction Time: 0.00983500480652
+Errors: 7 (18 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.190457105637
+Prediction Time: 0.0678720474243
+Errors: 7 (18 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0650088787079
+Prediction Time: 0.688966989517
+Errors: 16 (42 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 3
+Learning Rate = 0.01
+=== LinearSVM
+Training Time: 0.00100302696228
+Prediction Time: 7.91549682617e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000834941864014
+Prediction Time: 0.000258922576904
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000940084457397
+Prediction Time: 0.000102996826172
+Errors: 4 (11 % of test_dataset)
+=== Perceptron
+Training Time: 0.00268697738647
+Prediction Time: 0.000375032424927
+Errors: 4 (11 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00285816192627
+Prediction Time: 0.0105631351471
+Errors: 6 (16 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.191281080246
+Prediction Time: 0.066312789917
+Errors: 4 (11 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0612139701843
+Prediction Time: 0.698231935501
+Errors: 14 (37 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 3
+Learning Rate = 0.01
+=== LinearSVM
+Training Time: 0.00108695030212
+Prediction Time: 7.70092010498e-05
+Errors: 1 ( 3 % of test_dataset)
+=== SVM
+Training Time: 0.000802040100098
+Prediction Time: 0.000247001647949
+Errors: 0 ( 0 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000785112380981
+Prediction Time: 7.48634338379e-05
+Errors: 7 (18 % of test_dataset)
+=== Perceptron
+Training Time: 0.00270795822144
+Prediction Time: 0.000370979309082
+Errors: 4 (11 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00282192230225
+Prediction Time: 0.0111031532288
+Errors: 4 (11 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.192463874817
+Prediction Time: 0.0680668354034
+Errors: 4 (11 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0717940330505
+Prediction Time: 0.837626934052
+Errors: 15 (39 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 3
+Learning Rate = 0.01
+=== LinearSVM
+Training Time: 0.00103902816772
+Prediction Time: 7.89165496826e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000731945037842
+Prediction Time: 0.000232934951782
+Errors: 3 ( 8 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000783920288086
+Prediction Time: 7.41481781006e-05
+Errors: 8 (21 % of test_dataset)
+=== Perceptron
+Training Time: 0.00265216827393
+Prediction Time: 0.000369071960449
+Errors: 6 (16 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00281310081482
+Prediction Time: 0.0102999210358
+Errors: 8 (21 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.191500902176
+Prediction Time: 0.066645860672
+Errors: 6 (16 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.060779094696
+Prediction Time: 0.655758857727
+Errors: 17 (45 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 3
+Learning Rate = 0.01
+=== LinearSVM
+Training Time: 0.00105810165405
+Prediction Time: 7.79628753662e-05
+Errors: 1 ( 3 % of test_dataset)
+=== SVM
+Training Time: 0.000788927078247
+Prediction Time: 0.000241994857788
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.00079083442688
+Prediction Time: 7.48634338379e-05
+Errors: 6 (16 % of test_dataset)
+=== Perceptron
+Training Time: 0.00267696380615
+Prediction Time: 0.000362157821655
+Errors: 12 (32 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00282406806946
+Prediction Time: 0.0106120109558
+Errors: 3 ( 8 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.190438985825
+Prediction Time: 0.0668020248413
+Errors: 12 (32 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0607788562775
+Prediction Time: 0.813716173172
+Errors: 12 (32 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 3
+Learning Rate = 0.01
+=== LinearSVM
+Training Time: 0.000986099243164
+Prediction Time: 7.60555267334e-05
+Errors: 3 ( 8 % of test_dataset)
+=== SVM
+Training Time: 0.000728130340576
+Prediction Time: 0.00022292137146
+Errors: 3 ( 8 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000825166702271
+Prediction Time: 8.20159912109e-05
+Errors: 16 (42 % of test_dataset)
+=== Perceptron
+Training Time: 0.00256299972534
+Prediction Time: 0.000366926193237
+Errors: 5 (13 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00267696380615
+Prediction Time: 0.00912499427795
+Errors: 4 (11 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.190768957138
+Prediction Time: 0.066045999527
+Errors: 5 (13 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0567989349365
+Prediction Time: 0.546308040619
+Errors: 17 (45 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 3
+Learning Rate = 0.1
+=== LinearSVM
+Training Time: 0.00102615356445
+Prediction Time: 7.79628753662e-05
+Errors: 1 ( 3 % of test_dataset)
+=== SVM
+Training Time: 0.000802993774414
+Prediction Time: 0.000252962112427
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000787019729614
+Prediction Time: 7.5101852417e-05
+Errors: 6 (16 % of test_dataset)
+=== Perceptron
+Training Time: 0.00262904167175
+Prediction Time: 0.000359058380127
+Errors: 5 (13 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00279116630554
+Prediction Time: 0.0102880001068
+Errors: 4 (11 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.188884019852
+Prediction Time: 0.0656509399414
+Errors: 5 (13 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0541379451752
+Prediction Time: 0.753350019455
+Errors: 25 (66 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 3
+Learning Rate = 0.1
+=== LinearSVM
+Training Time: 0.00101208686829
+Prediction Time: 7.5101852417e-05
+Errors: 3 ( 8 % of test_dataset)
+=== SVM
+Training Time: 0.000802993774414
+Prediction Time: 0.000236034393311
+Errors: 3 ( 8 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000804901123047
+Prediction Time: 7.60555267334e-05
+Errors: 3 ( 8 % of test_dataset)
+=== Perceptron
+Training Time: 0.00265502929688
+Prediction Time: 0.000369071960449
+Errors: 3 ( 8 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00278210639954
+Prediction Time: 0.0106039047241
+Errors: 4 (11 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.189780950546
+Prediction Time: 0.0658769607544
+Errors: 3 ( 8 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0648000240326
+Prediction Time: 0.76053404808
+Errors: 19 (50 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 3
+Learning Rate = 0.1
+=== LinearSVM
+Training Time: 0.0010359287262
+Prediction Time: 7.48634338379e-05
+Errors: 1 ( 3 % of test_dataset)
+=== SVM
+Training Time: 0.000802993774414
+Prediction Time: 0.000236034393311
+Errors: 0 ( 0 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000786066055298
+Prediction Time: 7.79628753662e-05
+Errors: 5 (13 % of test_dataset)
+=== Perceptron
+Training Time: 0.00265693664551
+Prediction Time: 0.000368118286133
+Errors: 17 (45 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00278210639954
+Prediction Time: 0.010381937027
+Errors: 5 (13 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.190521001816
+Prediction Time: 0.0657110214233
+Errors: 17 (45 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0588960647583
+Prediction Time: 0.722585201263
+Errors: 13 (34 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 3
+Learning Rate = 0.1
+=== LinearSVM
+Training Time: 0.00106620788574
+Prediction Time: 7.79628753662e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000755071640015
+Prediction Time: 0.000240087509155
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000790119171143
+Prediction Time: 7.41481781006e-05
+Errors: 3 ( 8 % of test_dataset)
+=== Perceptron
+Training Time: 0.00278306007385
+Prediction Time: 0.000370025634766
+Errors: 5 (13 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00293016433716
+Prediction Time: 0.0121440887451
+Errors: 5 (13 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.191082954407
+Prediction Time: 0.066468000412
+Errors: 5 (13 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0719740390778
+Prediction Time: 0.907084941864
+Errors: 10 (26 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 3
+Learning Rate = 0.1
+=== LinearSVM
+Training Time: 0.00100207328796
+Prediction Time: 8.10623168945e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000863075256348
+Prediction Time: 0.000255823135376
+Errors: 0 ( 0 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000807046890259
+Prediction Time: 7.82012939453e-05
+Errors: 4 (11 % of test_dataset)
+=== Perceptron
+Training Time: 0.00272798538208
+Prediction Time: 0.000366926193237
+Errors: 12 (32 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00283908843994
+Prediction Time: 0.0114190578461
+Errors: 7 (18 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.19011092186
+Prediction Time: 0.0661909580231
+Errors: 12 (32 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.065437078476
+Prediction Time: 0.95378112793
+Errors: 22 (58 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 3
+Learning Rate = 1
+=== LinearSVM
+Training Time: 0.00104093551636
+Prediction Time: 7.58171081543e-05
+Errors: 3 ( 8 % of test_dataset)
+=== SVM
+Training Time: 0.00078010559082
+Prediction Time: 0.000247001647949
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000785112380981
+Prediction Time: 7.79628753662e-05
+Errors: 4 (11 % of test_dataset)
+=== Perceptron
+Training Time: 0.00265002250671
+Prediction Time: 0.0003662109375
+Errors: 4 (11 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00277495384216
+Prediction Time: 0.0106308460236
+Errors: 6 (16 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.192157030106
+Prediction Time: 0.0681030750275
+Errors: 4 (11 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0654668807983
+Prediction Time: 0.743535041809
+Errors: 13 (34 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 3
+Learning Rate = 1
+=== LinearSVM
+Training Time: 0.00105309486389
+Prediction Time: 7.79628753662e-05
+Errors: 5 (13 % of test_dataset)
+=== SVM
+Training Time: 0.00075101852417
+Prediction Time: 0.000234842300415
+Errors: 3 ( 8 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000820159912109
+Prediction Time: 8.39233398438e-05
+Errors: 3 ( 8 % of test_dataset)
+=== Perceptron
+Training Time: 0.00268507003784
+Prediction Time: 0.000366926193237
+Errors: 8 (21 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00279188156128
+Prediction Time: 0.0106189250946
+Errors: 11 (29 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.194231987
+Prediction Time: 0.0680928230286
+Errors: 8 (21 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0591471195221
+Prediction Time: 0.873207092285
+Errors: 18 (47 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 3
+Learning Rate = 1
+=== LinearSVM
+Training Time: 0.000955104827881
+Prediction Time: 0.000110149383545
+Errors: 1 ( 3 % of test_dataset)
+=== SVM
+Training Time: 0.000765085220337
+Prediction Time: 0.000229120254517
+Errors: 4 (11 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000793933868408
+Prediction Time: 8.48770141602e-05
+Errors: 0 ( 0 % of test_dataset)
+=== Perceptron
+Training Time: 0.00264501571655
+Prediction Time: 0.000367879867554
+Errors: 13 (34 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00276494026184
+Prediction Time: 0.010360956192
+Errors: 4 (11 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.194849014282
+Prediction Time: 0.0699322223663
+Errors: 13 (34 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0669598579407
+Prediction Time: 0.699876070023
+Errors: 17 (45 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 3
+Learning Rate = 1
+=== LinearSVM
+Training Time: 0.00107407569885
+Prediction Time: 7.89165496826e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000777006149292
+Prediction Time: 0.000234127044678
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000777959823608
+Prediction Time: 7.20024108887e-05
+Errors: 10 (26 % of test_dataset)
+=== Perceptron
+Training Time: 0.00261306762695
+Prediction Time: 0.000371932983398
+Errors: 4 (11 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00271701812744
+Prediction Time: 0.00977802276611
+Errors: 3 ( 8 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.191886901855
+Prediction Time: 0.0679569244385
+Errors: 4 (11 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0602569580078
+Prediction Time: 0.639002084732
+Errors: 15 (39 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 3
+Learning Rate = 1
+=== LinearSVM
+Training Time: 0.00101399421692
+Prediction Time: 7.60555267334e-05
+Errors: 3 ( 8 % of test_dataset)
+=== SVM
+Training Time: 0.000840187072754
+Prediction Time: 0.000248908996582
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000786066055298
+Prediction Time: 7.48634338379e-05
+Errors: 12 (32 % of test_dataset)
+=== Perceptron
+Training Time: 0.00268292427063
+Prediction Time: 0.000367879867554
+Errors: 5 (13 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00277090072632
+Prediction Time: 0.0103549957275
+Errors: 9 (24 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.193163156509
+Prediction Time: 0.0683000087738
+Errors: 5 (13 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0597689151764
+Prediction Time: 0.773483991623
+Errors: 24 (63 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 3
+Learning Rate = 10
+=== LinearSVM
+Training Time: 0.00107908248901
+Prediction Time: 7.82012939453e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000815868377686
+Prediction Time: 0.000257968902588
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000785827636719
+Prediction Time: 7.29560852051e-05
+Errors: 4 (11 % of test_dataset)
+=== Perceptron
+Training Time: 0.00275683403015
+Prediction Time: 0.000371932983398
+Errors: 5 (13 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00286221504211
+Prediction Time: 0.0116338729858
+Errors: 8 (21 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.190978050232
+Prediction Time: 0.0682601928711
+Errors: 5 (13 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0624139308929
+Prediction Time: 0.937180995941
+Errors: 13 (34 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 3
+Learning Rate = 10
+=== LinearSVM
+Training Time: 0.00105810165405
+Prediction Time: 0.000123977661133
+Errors: 5 (13 % of test_dataset)
+=== SVM
+Training Time: 0.00079607963562
+Prediction Time: 0.000226974487305
+Errors: 5 (13 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.00078821182251
+Prediction Time: 7.29560852051e-05
+Errors: 7 (18 % of test_dataset)
+=== Perceptron
+Training Time: 0.00262594223022
+Prediction Time: 0.000375032424927
+Errors: 6 (16 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00274991989136
+Prediction Time: 0.00987005233765
+Errors: 11 (29 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.192401170731
+Prediction Time: 0.0690190792084
+Errors: 6 (16 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0589389801025
+Prediction Time: 0.598535060883
+Errors: 18 (47 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 3
+Learning Rate = 10
+=== LinearSVM
+Training Time: 0.001060962677
+Prediction Time: 8.39233398438e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000808000564575
+Prediction Time: 0.000253915786743
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000815153121948
+Prediction Time: 8.60691070557e-05
+Errors: 15 (39 % of test_dataset)
+=== Perceptron
+Training Time: 0.00283193588257
+Prediction Time: 0.000384092330933
+Errors: 20 (53 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00294899940491
+Prediction Time: 0.011824131012
+Errors: 3 ( 8 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.190534830093
+Prediction Time: 0.0711431503296
+Errors: 20 (53 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0685861110687
+Prediction Time: 1.03423118591
+Errors: 21 (55 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 3
+Learning Rate = 10
+=== LinearSVM
+Training Time: 0.00101208686829
+Prediction Time: 7.79628753662e-05
+Errors: 5 (13 % of test_dataset)
+=== SVM
+Training Time: 0.000777959823608
+Prediction Time: 0.000231027603149
+Errors: 5 (13 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000784158706665
+Prediction Time: 7.29560852051e-05
+Errors: 8 (21 % of test_dataset)
+=== Perceptron
+Training Time: 0.00262594223022
+Prediction Time: 0.000365018844604
+Errors: 5 (13 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00273418426514
+Prediction Time: 0.0101699829102
+Errors: 6 (16 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.191111087799
+Prediction Time: 0.0673921108246
+Errors: 5 (13 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0640749931335
+Prediction Time: 0.701811075211
+Errors: 15 (39 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 3
+Learning Rate = 10
+=== LinearSVM
+Training Time: 0.00110816955566
+Prediction Time: 0.000127077102661
+Errors: 3 ( 8 % of test_dataset)
+=== SVM
+Training Time: 0.000892162322998
+Prediction Time: 0.000282049179077
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000967979431152
+Prediction Time: 0.000107049942017
+Errors: 6 (16 % of test_dataset)
+=== Perceptron
+Training Time: 0.00263500213623
+Prediction Time: 0.000383138656616
+Errors: 8 (21 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00274991989136
+Prediction Time: 0.00852918624878
+Errors: 7 (18 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.191050052643
+Prediction Time: 0.0674631595612
+Errors: 8 (21 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0476160049438
+Prediction Time: 0.521995067596
+Errors: 25 (66 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 3
+Learning Rate = 100
+=== LinearSVM
+Training Time: 0.00107502937317
+Prediction Time: 9.70363616943e-05
+Errors: 6 (16 % of test_dataset)
+=== SVM
+Training Time: 0.000836133956909
+Prediction Time: 0.000262022018433
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000831842422485
+Prediction Time: 8.70227813721e-05
+Errors: 6 (16 % of test_dataset)
+=== Perceptron
+Training Time: 0.00268006324768
+Prediction Time: 0.000369071960449
+Errors: 6 (16 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00280594825745
+Prediction Time: 0.0106780529022
+Errors: 10 (26 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.19352388382
+Prediction Time: 0.0676641464233
+Errors: 6 (16 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0598418712616
+Prediction Time: 0.747557163239
+Errors: 13 (34 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 3
+Learning Rate = 100
+=== LinearSVM
+Training Time: 0.00108289718628
+Prediction Time: 8.41617584229e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000815868377686
+Prediction Time: 0.000251054763794
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000837087631226
+Prediction Time: 8.10623168945e-05
+Errors: 2 ( 5 % of test_dataset)
+=== Perceptron
+Training Time: 0.00262188911438
+Prediction Time: 0.000393152236938
+Errors: 10 (26 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00278806686401
+Prediction Time: 0.0105459690094
+Errors: 4 (11 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.192250967026
+Prediction Time: 0.0673758983612
+Errors: 10 (26 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0593640804291
+Prediction Time: 0.806284189224
+Errors: 20 (53 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 3
+Learning Rate = 100
+=== LinearSVM
+Training Time: 0.00102615356445
+Prediction Time: 7.89165496826e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000800132751465
+Prediction Time: 0.000240087509155
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000787973403931
+Prediction Time: 7.39097595215e-05
+Errors: 1 ( 3 % of test_dataset)
+=== Perceptron
+Training Time: 0.00276207923889
+Prediction Time: 0.000375032424927
+Errors: 14 (37 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00288105010986
+Prediction Time: 0.0116550922394
+Errors: 5 (13 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.1917989254
+Prediction Time: 0.0677890777588
+Errors: 14 (37 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0724101066589
+Prediction Time: 0.918225049973
+Errors: 15 (39 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 3
+Learning Rate = 100
+=== LinearSVM
+Training Time: 0.00103092193604
+Prediction Time: 7.41481781006e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000777959823608
+Prediction Time: 0.00025200843811
+Errors: 0 ( 0 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000959157943726
+Prediction Time: 0.000123023986816
+Errors: 11 (29 % of test_dataset)
+=== Perceptron
+Training Time: 0.00264000892639
+Prediction Time: 0.000396966934204
+Errors: 9 (24 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00277900695801
+Prediction Time: 0.00927495956421
+Errors: 7 (18 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.192665100098
+Prediction Time: 0.0676839351654
+Errors: 9 (24 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0567908287048
+Prediction Time: 0.65040397644
+Errors: 14 (37 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 3
+Learning Rate = 100
+=== LinearSVM
+Training Time: 0.00107979774475
+Prediction Time: 0.000128030776978
+Errors: 3 ( 8 % of test_dataset)
+=== SVM
+Training Time: 0.000874996185303
+Prediction Time: 0.000290155410767
+Errors: 0 ( 0 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000991106033325
+Prediction Time: 0.000110149383545
+Errors: 3 ( 8 % of test_dataset)
+=== Perceptron
+Training Time: 0.00269198417664
+Prediction Time: 0.000380992889404
+Errors: 7 (18 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0028510093689
+Prediction Time: 0.0101130008698
+Errors: 4 (11 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.195346832275
+Prediction Time: 0.0671219825745
+Errors: 7 (18 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0562191009521
+Prediction Time: 0.701336860657
+Errors: 19 (50 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 5
+Learning Rate = 0.01
+=== LinearSVM
+Training Time: 0.00107407569885
+Prediction Time: 0.000114917755127
+Errors: 0 ( 0 % of test_dataset)
+=== SVM
+Training Time: 0.000947952270508
+Prediction Time: 0.000300168991089
+Errors: 0 ( 0 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000933170318604
+Prediction Time: 0.000111103057861
+Errors: 1 ( 3 % of test_dataset)
+=== Perceptron
+Training Time: 0.00288105010986
+Prediction Time: 0.00039005279541
+Errors: 13 (34 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00299882888794
+Prediction Time: 0.0117840766907
+Errors: 8 (21 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.191378116608
+Prediction Time: 0.0680701732635
+Errors: 13 (34 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0759110450745
+Prediction Time: 1.02305793762
+Errors: 19 (50 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 5
+Learning Rate = 0.01
+=== LinearSVM
+Training Time: 0.00108599662781
+Prediction Time: 8.89301300049e-05
+Errors: 1 ( 3 % of test_dataset)
+=== SVM
+Training Time: 0.000833988189697
+Prediction Time: 0.000251054763794
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000838041305542
+Prediction Time: 8.20159912109e-05
+Errors: 2 ( 5 % of test_dataset)
+=== Perceptron
+Training Time: 0.00280714035034
+Prediction Time: 0.000362873077393
+Errors: 5 (13 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00295186042786
+Prediction Time: 0.0122921466827
+Errors: 3 ( 8 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.191532850266
+Prediction Time: 0.065603017807
+Errors: 5 (13 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0733408927917
+Prediction Time: 1.0324819088
+Errors: 16 (42 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 5
+Learning Rate = 0.01
+=== LinearSVM
+Training Time: 0.0010199546814
+Prediction Time: 7.9870223999e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000768899917603
+Prediction Time: 0.000247001647949
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.00080394744873
+Prediction Time: 7.60555267334e-05
+Errors: 11 (29 % of test_dataset)
+=== Perceptron
+Training Time: 0.00261902809143
+Prediction Time: 0.000370025634766
+Errors: 6 (16 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0027379989624
+Prediction Time: 0.0100250244141
+Errors: 7 (18 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.188571214676
+Prediction Time: 0.0658690929413
+Errors: 6 (16 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0588881969452
+Prediction Time: 0.663793087006
+Errors: 12 (32 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 5
+Learning Rate = 0.01
+=== LinearSVM
+Training Time: 0.000993967056274
+Prediction Time: 7.60555267334e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000763893127441
+Prediction Time: 0.000241994857788
+Errors: 0 ( 0 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000777959823608
+Prediction Time: 7.31945037842e-05
+Errors: 7 (18 % of test_dataset)
+=== Perceptron
+Training Time: 0.00270009040833
+Prediction Time: 0.000413179397583
+Errors: 6 (16 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00287485122681
+Prediction Time: 0.0107600688934
+Errors: 9 (24 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.19221997261
+Prediction Time: 0.0662050247192
+Errors: 6 (16 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0637221336365
+Prediction Time: 0.766814947128
+Errors: 17 (45 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 5
+Learning Rate = 0.01
+=== LinearSVM
+Training Time: 0.00101590156555
+Prediction Time: 7.70092010498e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.00078296661377
+Prediction Time: 0.000237226486206
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000791788101196
+Prediction Time: 7.39097595215e-05
+Errors: 4 (11 % of test_dataset)
+=== Perceptron
+Training Time: 0.00264596939087
+Prediction Time: 0.000370979309082
+Errors: 6 (16 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00277709960938
+Prediction Time: 0.0102550983429
+Errors: 6 (16 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.189450979233
+Prediction Time: 0.0659470558167
+Errors: 6 (16 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0590260028839
+Prediction Time: 0.666504859924
+Errors: 15 (39 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 5
+Learning Rate = 0.1
+=== LinearSVM
+Training Time: 0.0010039806366
+Prediction Time: 7.70092010498e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000767946243286
+Prediction Time: 0.000236988067627
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000782012939453
+Prediction Time: 7.5101852417e-05
+Errors: 11 (29 % of test_dataset)
+=== Perceptron
+Training Time: 0.0026547908783
+Prediction Time: 0.000365972518921
+Errors: 3 ( 8 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00280499458313
+Prediction Time: 0.0108470916748
+Errors: 5 (13 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.190360069275
+Prediction Time: 0.0682020187378
+Errors: 3 ( 8 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0626201629639
+Prediction Time: 0.746591806412
+Errors: 13 (34 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 5
+Learning Rate = 0.1
+=== LinearSVM
+Training Time: 0.00097393989563
+Prediction Time: 7.79628753662e-05
+Errors: 3 ( 8 % of test_dataset)
+=== SVM
+Training Time: 0.000821113586426
+Prediction Time: 0.00023889541626
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000815868377686
+Prediction Time: 7.58171081543e-05
+Errors: 2 ( 5 % of test_dataset)
+=== Perceptron
+Training Time: 0.00256013870239
+Prediction Time: 0.000367879867554
+Errors: 17 (45 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00272798538208
+Prediction Time: 0.00943207740784
+Errors: 6 (16 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.191440105438
+Prediction Time: 0.0683131217957
+Errors: 17 (45 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0535070896149
+Prediction Time: 0.623664140701
+Errors: 8 (21 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 5
+Learning Rate = 0.1
+=== LinearSVM
+Training Time: 0.00134205818176
+Prediction Time: 7.70092010498e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000823974609375
+Prediction Time: 0.000243902206421
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000783920288086
+Prediction Time: 7.5101852417e-05
+Errors: 4 (11 % of test_dataset)
+=== Perceptron
+Training Time: 0.00260901451111
+Prediction Time: 0.000370979309082
+Errors: 9 (24 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00270295143127
+Prediction Time: 0.00935983657837
+Errors: 3 ( 8 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.189520120621
+Prediction Time: 0.0657031536102
+Errors: 9 (24 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.054318189621
+Prediction Time: 0.604961872101
+Errors: 8 (21 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 5
+Learning Rate = 0.1
+=== LinearSVM
+Training Time: 0.00100779533386
+Prediction Time: 7.70092010498e-05
+Errors: 3 ( 8 % of test_dataset)
+=== SVM
+Training Time: 0.000777959823608
+Prediction Time: 0.000245094299316
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000777959823608
+Prediction Time: 7.31945037842e-05
+Errors: 4 (11 % of test_dataset)
+=== Perceptron
+Training Time: 0.00266408920288
+Prediction Time: 0.000372886657715
+Errors: 12 (32 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00282192230225
+Prediction Time: 0.0109169483185
+Errors: 5 (13 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.193448066711
+Prediction Time: 0.0679030418396
+Errors: 12 (32 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0647339820862
+Prediction Time: 0.892175912857
+Errors: 12 (32 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 5
+Learning Rate = 0.1
+=== LinearSVM
+Training Time: 0.000993967056274
+Prediction Time: 8.58306884766e-05
+Errors: 4 (11 % of test_dataset)
+=== SVM
+Training Time: 0.000741004943848
+Prediction Time: 0.000239849090576
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000824928283691
+Prediction Time: 8.10623168945e-05
+Errors: 7 (18 % of test_dataset)
+=== Perceptron
+Training Time: 0.00261187553406
+Prediction Time: 0.000370025634766
+Errors: 12 (32 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00272798538208
+Prediction Time: 0.00947785377502
+Errors: 6 (16 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.193523168564
+Prediction Time: 0.0682649612427
+Errors: 12 (32 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0534570217133
+Prediction Time: 0.654452085495
+Errors: 26 (68 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 5
+Learning Rate = 1
+=== LinearSVM
+Training Time: 0.00104188919067
+Prediction Time: 7.70092010498e-05
+Errors: 1 ( 3 % of test_dataset)
+=== SVM
+Training Time: 0.00086498260498
+Prediction Time: 0.000245809555054
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000795125961304
+Prediction Time: 7.60555267334e-05
+Errors: 12 (32 % of test_dataset)
+=== Perceptron
+Training Time: 0.00272703170776
+Prediction Time: 0.000371932983398
+Errors: 6 (16 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00283789634705
+Prediction Time: 0.0110380649567
+Errors: 5 (13 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.193088054657
+Prediction Time: 0.0676980018616
+Errors: 6 (16 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0694749355316
+Prediction Time: 0.877346038818
+Errors: 10 (26 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 5
+Learning Rate = 1
+=== LinearSVM
+Training Time: 0.00107097625732
+Prediction Time: 7.89165496826e-05
+Errors: 4 (11 % of test_dataset)
+=== SVM
+Training Time: 0.000741004943848
+Prediction Time: 0.000236988067627
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000785112380981
+Prediction Time: 7.5101852417e-05
+Errors: 4 (11 % of test_dataset)
+=== Perceptron
+Training Time: 0.00261902809143
+Prediction Time: 0.000367164611816
+Errors: 8 (21 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00274896621704
+Prediction Time: 0.00979399681091
+Errors: 7 (18 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.191335916519
+Prediction Time: 0.0679309368134
+Errors: 8 (21 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0549130439758
+Prediction Time: 0.643829107285
+Errors: 15 (39 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 5
+Learning Rate = 1
+=== LinearSVM
+Training Time: 0.000968933105469
+Prediction Time: 7.41481781006e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000763893127441
+Prediction Time: 0.00026798248291
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000779867172241
+Prediction Time: 7.39097595215e-05
+Errors: 5 (13 % of test_dataset)
+=== Perceptron
+Training Time: 0.00262784957886
+Prediction Time: 0.000401973724365
+Errors: 8 (21 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00278615951538
+Prediction Time: 0.0103418827057
+Errors: 11 (29 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.192326068878
+Prediction Time: 0.0684239864349
+Errors: 8 (21 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0635588169098
+Prediction Time: 0.750739097595
+Errors: 23 (61 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 5
+Learning Rate = 1
+=== LinearSVM
+Training Time: 0.00109505653381
+Prediction Time: 0.000102996826172
+Errors: 0 ( 0 % of test_dataset)
+=== SVM
+Training Time: 0.000931024551392
+Prediction Time: 0.00028920173645
+Errors: 0 ( 0 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000944137573242
+Prediction Time: 0.000104904174805
+Errors: 1 ( 3 % of test_dataset)
+=== Perceptron
+Training Time: 0.0027129650116
+Prediction Time: 0.000365018844604
+Errors: 6 (16 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00279998779297
+Prediction Time: 0.0106639862061
+Errors: 5 (13 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.195013999939
+Prediction Time: 0.0678050518036
+Errors: 6 (16 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0627019405365
+Prediction Time: 0.893738985062
+Errors: 25 (66 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 5
+Learning Rate = 1
+=== LinearSVM
+Training Time: 0.00103902816772
+Prediction Time: 9.60826873779e-05
+Errors: 4 (11 % of test_dataset)
+=== SVM
+Training Time: 0.000723838806152
+Prediction Time: 0.000226020812988
+Errors: 4 (11 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000791072845459
+Prediction Time: 7.41481781006e-05
+Errors: 3 ( 8 % of test_dataset)
+=== Perceptron
+Training Time: 0.00268602371216
+Prediction Time: 0.000392913818359
+Errors: 14 (37 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00281190872192
+Prediction Time: 0.00970101356506
+Errors: 6 (16 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.191638946533
+Prediction Time: 0.0680561065674
+Errors: 14 (37 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0568418502808
+Prediction Time: 0.65945315361
+Errors: 27 (71 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 5
+Learning Rate = 10
+=== LinearSVM
+Training Time: 0.00109195709229
+Prediction Time: 0.000115156173706
+Errors: 1 ( 3 % of test_dataset)
+=== SVM
+Training Time: 0.000859975814819
+Prediction Time: 0.000277042388916
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000894784927368
+Prediction Time: 9.10758972168e-05
+Errors: 11 (29 % of test_dataset)
+=== Perceptron
+Training Time: 0.00283193588257
+Prediction Time: 0.000380039215088
+Errors: 12 (32 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00293493270874
+Prediction Time: 0.0118319988251
+Errors: 1 ( 3 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.19237613678
+Prediction Time: 0.0684549808502
+Errors: 12 (32 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0699691772461
+Prediction Time: 0.894990921021
+Errors: 11 (29 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 5
+Learning Rate = 10
+=== LinearSVM
+Training Time: 0.00102996826172
+Prediction Time: 7.60555267334e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000741958618164
+Prediction Time: 0.000247001647949
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000780820846558
+Prediction Time: 7.29560852051e-05
+Errors: 11 (29 % of test_dataset)
+=== Perceptron
+Training Time: 0.00256299972534
+Prediction Time: 0.000365018844604
+Errors: 7 (18 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00270700454712
+Prediction Time: 0.00926804542542
+Errors: 4 (11 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.194437980652
+Prediction Time: 0.0676419734955
+Errors: 7 (18 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0570061206818
+Prediction Time: 0.599301099777
+Errors: 10 (26 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 5
+Learning Rate = 10
+=== LinearSVM
+Training Time: 0.00105810165405
+Prediction Time: 8.39233398438e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000843048095703
+Prediction Time: 0.000265121459961
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000821113586426
+Prediction Time: 8.01086425781e-05
+Errors: 2 ( 5 % of test_dataset)
+=== Perceptron
+Training Time: 0.00259113311768
+Prediction Time: 0.000373125076294
+Errors: 18 (47 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00263214111328
+Prediction Time: 0.00902390480042
+Errors: 10 (26 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.194074869156
+Prediction Time: 0.0679669380188
+Errors: 18 (47 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0503559112549
+Prediction Time: 0.529714107513
+Errors: 18 (47 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 5
+Learning Rate = 10
+=== LinearSVM
+Training Time: 0.00103378295898
+Prediction Time: 7.39097595215e-05
+Errors: 4 (11 % of test_dataset)
+=== SVM
+Training Time: 0.000720024108887
+Prediction Time: 0.00023078918457
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000781059265137
+Prediction Time: 7.20024108887e-05
+Errors: 6 (16 % of test_dataset)
+=== Perceptron
+Training Time: 0.00261902809143
+Prediction Time: 0.000378131866455
+Errors: 10 (26 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00273394584656
+Prediction Time: 0.00936007499695
+Errors: 6 (16 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.193480014801
+Prediction Time: 0.0682489871979
+Errors: 10 (26 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0570650100708
+Prediction Time: 0.726945161819
+Errors: 28 (74 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 5
+Learning Rate = 10
+=== LinearSVM
+Training Time: 0.00104904174805
+Prediction Time: 7.58171081543e-05
+Errors: 5 (13 % of test_dataset)
+=== SVM
+Training Time: 0.000774145126343
+Prediction Time: 0.000242948532104
+Errors: 3 ( 8 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000784873962402
+Prediction Time: 7.48634338379e-05
+Errors: 4 (11 % of test_dataset)
+=== Perceptron
+Training Time: 0.00250101089478
+Prediction Time: 0.000365018844604
+Errors: 9 (24 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00265312194824
+Prediction Time: 0.00848698616028
+Errors: 8 (21 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.191585063934
+Prediction Time: 0.0660710334778
+Errors: 9 (24 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0482850074768
+Prediction Time: 0.444225072861
+Errors: 13 (34 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 5
+Learning Rate = 100
+=== LinearSVM
+Training Time: 0.00102400779724
+Prediction Time: 7.58171081543e-05
+Errors: 6 (16 % of test_dataset)
+=== SVM
+Training Time: 0.00074291229248
+Prediction Time: 0.000231981277466
+Errors: 3 ( 8 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000781059265137
+Prediction Time: 7.41481781006e-05
+Errors: 7 (18 % of test_dataset)
+=== Perceptron
+Training Time: 0.00259709358215
+Prediction Time: 0.000365972518921
+Errors: 9 (24 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00272798538208
+Prediction Time: 0.00974893569946
+Errors: 9 (24 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.189720153809
+Prediction Time: 0.0660059452057
+Errors: 9 (24 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0583770275116
+Prediction Time: 0.641067028046
+Errors: 16 (42 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 5
+Learning Rate = 100
+=== LinearSVM
+Training Time: 0.00113797187805
+Prediction Time: 0.000140190124512
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000916957855225
+Prediction Time: 0.000290870666504
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000953912734985
+Prediction Time: 0.000100135803223
+Errors: 3 ( 8 % of test_dataset)
+=== Perceptron
+Training Time: 0.00289011001587
+Prediction Time: 0.000393867492676
+Errors: 9 (24 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00292992591858
+Prediction Time: 0.0111749172211
+Errors: 5 (13 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.191398859024
+Prediction Time: 0.0663619041443
+Errors: 9 (24 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0636961460114
+Prediction Time: 0.855713129044
+Errors: 16 (42 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 5
+Learning Rate = 100
+=== LinearSVM
+Training Time: 0.00109791755676
+Prediction Time: 7.29560852051e-05
+Errors: 1 ( 3 % of test_dataset)
+=== SVM
+Training Time: 0.000818967819214
+Prediction Time: 0.000251054763794
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000804901123047
+Prediction Time: 7.58171081543e-05
+Errors: 9 (24 % of test_dataset)
+=== Perceptron
+Training Time: 0.00274705886841
+Prediction Time: 0.000369071960449
+Errors: 14 (37 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00286197662354
+Prediction Time: 0.0113639831543
+Errors: 3 ( 8 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.191380977631
+Prediction Time: 0.0683569908142
+Errors: 14 (37 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0669910907745
+Prediction Time: 0.803807973862
+Errors: 6 (16 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 5
+Learning Rate = 100
+=== LinearSVM
+Training Time: 0.00100588798523
+Prediction Time: 0.000102996826172
+Errors: 3 ( 8 % of test_dataset)
+=== SVM
+Training Time: 0.000746965408325
+Prediction Time: 0.000243186950684
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000777006149292
+Prediction Time: 7.31945037842e-05
+Errors: 8 (21 % of test_dataset)
+=== Perceptron
+Training Time: 0.00276517868042
+Prediction Time: 0.000366926193237
+Errors: 6 (16 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0028669834137
+Prediction Time: 0.0116310119629
+Errors: 7 (18 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.189058065414
+Prediction Time: 0.0655491352081
+Errors: 6 (16 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0690457820892
+Prediction Time: 0.967978954315
+Errors: 16 (42 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 5
+Learning Rate = 100
+=== LinearSVM
+Training Time: 0.00100994110107
+Prediction Time: 7.91549682617e-05
+Errors: 4 (11 % of test_dataset)
+=== SVM
+Training Time: 0.000795841217041
+Prediction Time: 0.000229835510254
+Errors: 5 (13 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.00078296661377
+Prediction Time: 7.48634338379e-05
+Errors: 4 (11 % of test_dataset)
+=== Perceptron
+Training Time: 0.00250506401062
+Prediction Time: 0.000371932983398
+Errors: 13 (34 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0026741027832
+Prediction Time: 0.00873208045959
+Errors: 8 (21 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.189862012863
+Prediction Time: 0.0658318996429
+Errors: 13 (34 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0535140037537
+Prediction Time: 0.491451025009
+Errors: 17 (45 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 10
+Learning Rate = 0.01
+=== LinearSVM
+Training Time: 0.00102591514587
+Prediction Time: 7.48634338379e-05
+Errors: 1 ( 3 % of test_dataset)
+=== SVM
+Training Time: 0.000792026519775
+Prediction Time: 0.000240087509155
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000788927078247
+Prediction Time: 7.70092010498e-05
+Errors: 6 (16 % of test_dataset)
+=== Perceptron
+Training Time: 0.00270819664001
+Prediction Time: 0.000370979309082
+Errors: 6 (16 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00291705131531
+Prediction Time: 0.0109040737152
+Errors: 5 (13 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.193923950195
+Prediction Time: 0.0678441524506
+Errors: 6 (16 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0669980049133
+Prediction Time: 0.783929109573
+Errors: 12 (32 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 10
+Learning Rate = 0.01
+=== LinearSVM
+Training Time: 0.00100088119507
+Prediction Time: 7.70092010498e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000760078430176
+Prediction Time: 0.000237941741943
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000778913497925
+Prediction Time: 7.39097595215e-05
+Errors: 3 ( 8 % of test_dataset)
+=== Perceptron
+Training Time: 0.00267291069031
+Prediction Time: 0.000367879867554
+Errors: 8 (21 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00277304649353
+Prediction Time: 0.010782957077
+Errors: 6 (16 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.191159963608
+Prediction Time: 0.0674960613251
+Errors: 8 (21 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.066456079483
+Prediction Time: 0.880129098892
+Errors: 29 (76 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 10
+Learning Rate = 0.01
+=== LinearSVM
+Training Time: 0.000994920730591
+Prediction Time: 7.5101852417e-05
+Errors: 3 ( 8 % of test_dataset)
+=== SVM
+Training Time: 0.000752925872803
+Prediction Time: 0.000229835510254
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000825881958008
+Prediction Time: 7.70092010498e-05
+Errors: 6 (16 % of test_dataset)
+=== Perceptron
+Training Time: 0.0026490688324
+Prediction Time: 0.000364065170288
+Errors: 7 (18 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00278806686401
+Prediction Time: 0.01083111763
+Errors: 7 (18 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.192682981491
+Prediction Time: 0.0684740543365
+Errors: 7 (18 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0641839504242
+Prediction Time: 0.906800985336
+Errors: 20 (53 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 10
+Learning Rate = 0.01
+=== LinearSVM
+Training Time: 0.00101804733276
+Prediction Time: 0.000105857849121
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000777006149292
+Prediction Time: 0.000241994857788
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000776052474976
+Prediction Time: 7.10487365723e-05
+Errors: 12 (32 % of test_dataset)
+=== Perceptron
+Training Time: 0.00265002250671
+Prediction Time: 0.000365018844604
+Errors: 15 (39 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00277781486511
+Prediction Time: 0.0101819038391
+Errors: 11 (29 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.194265127182
+Prediction Time: 0.0682621002197
+Errors: 15 (39 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0565538406372
+Prediction Time: 0.727267980576
+Errors: 16 (42 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 10
+Learning Rate = 0.01
+=== LinearSVM
+Training Time: 0.00104713439941
+Prediction Time: 7.60555267334e-05
+Errors: 4 (11 % of test_dataset)
+=== SVM
+Training Time: 0.000740051269531
+Prediction Time: 0.000270128250122
+Errors: 3 ( 8 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000802040100098
+Prediction Time: 7.58171081543e-05
+Errors: 7 (18 % of test_dataset)
+=== Perceptron
+Training Time: 0.00250005722046
+Prediction Time: 0.000400066375732
+Errors: 12 (32 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00263690948486
+Prediction Time: 0.00873398780823
+Errors: 9 (24 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.192197084427
+Prediction Time: 0.0679640769958
+Errors: 12 (32 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0539510250092
+Prediction Time: 0.555128097534
+Errors: 25 (66 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 10
+Learning Rate = 0.1
+=== LinearSVM
+Training Time: 0.00103688240051
+Prediction Time: 7.70092010498e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000766038894653
+Prediction Time: 0.000241994857788
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000792026519775
+Prediction Time: 7.41481781006e-05
+Errors: 8 (21 % of test_dataset)
+=== Perceptron
+Training Time: 0.00256180763245
+Prediction Time: 0.000408887863159
+Errors: 13 (34 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00271606445312
+Prediction Time: 0.00991892814636
+Errors: 5 (13 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.19345498085
+Prediction Time: 0.0682327747345
+Errors: 13 (34 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0598800182343
+Prediction Time: 0.640303134918
+Errors: 14 (37 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 10
+Learning Rate = 0.1
+=== LinearSVM
+Training Time: 0.00103998184204
+Prediction Time: 9.58442687988e-05
+Errors: 3 ( 8 % of test_dataset)
+=== SVM
+Training Time: 0.000863075256348
+Prediction Time: 0.000274181365967
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.00086498260498
+Prediction Time: 8.9168548584e-05
+Errors: 8 (21 % of test_dataset)
+=== Perceptron
+Training Time: 0.00272798538208
+Prediction Time: 0.000382900238037
+Errors: 6 (16 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00289297103882
+Prediction Time: 0.0112099647522
+Errors: 8 (21 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.193036079407
+Prediction Time: 0.0679440498352
+Errors: 6 (16 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0624780654907
+Prediction Time: 0.862948894501
+Errors: 11 (29 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 10
+Learning Rate = 0.1
+=== LinearSVM
+Training Time: 0.00092887878418
+Prediction Time: 7.60555267334e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000785112380981
+Prediction Time: 0.00023889541626
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.00082802772522
+Prediction Time: 7.89165496826e-05
+Errors: 4 (11 % of test_dataset)
+=== Perceptron
+Training Time: 0.00266218185425
+Prediction Time: 0.000372886657715
+Errors: 9 (24 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00282692909241
+Prediction Time: 0.0106720924377
+Errors: 7 (18 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.192376852036
+Prediction Time: 0.0682220458984
+Errors: 9 (24 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0574629306793
+Prediction Time: 0.76051402092
+Errors: 16 (42 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 10
+Learning Rate = 0.1
+=== LinearSVM
+Training Time: 0.00100207328796
+Prediction Time: 8.41617584229e-05
+Errors: 3 ( 8 % of test_dataset)
+=== SVM
+Training Time: 0.000816106796265
+Prediction Time: 0.000241041183472
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000839948654175
+Prediction Time: 7.70092010498e-05
+Errors: 3 ( 8 % of test_dataset)
+=== Perceptron
+Training Time: 0.00272011756897
+Prediction Time: 0.000365018844604
+Errors: 8 (21 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00285315513611
+Prediction Time: 0.0115389823914
+Errors: 5 (13 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.190406084061
+Prediction Time: 0.0672199726105
+Errors: 8 (21 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0666360855103
+Prediction Time: 0.929684877396
+Errors: 17 (45 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 10
+Learning Rate = 0.1
+=== LinearSVM
+Training Time: 0.00100302696228
+Prediction Time: 7.79628753662e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000784873962402
+Prediction Time: 0.000237941741943
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000832080841064
+Prediction Time: 8.41617584229e-05
+Errors: 13 (34 % of test_dataset)
+=== Perceptron
+Training Time: 0.00268697738647
+Prediction Time: 0.000372886657715
+Errors: 4 (11 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00285792350769
+Prediction Time: 0.0112380981445
+Errors: 4 (11 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.19137597084
+Prediction Time: 0.068165063858
+Errors: 4 (11 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0652899742126
+Prediction Time: 0.856009960175
+Errors: 14 (37 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 10
+Learning Rate = 1
+=== LinearSVM
+Training Time: 0.000996112823486
+Prediction Time: 7.60555267334e-05
+Errors: 4 (11 % of test_dataset)
+=== SVM
+Training Time: 0.000751972198486
+Prediction Time: 0.000243902206421
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.00079083442688
+Prediction Time: 8.58306884766e-05
+Errors: 6 (16 % of test_dataset)
+=== Perceptron
+Training Time: 0.00261902809143
+Prediction Time: 0.000375032424927
+Errors: 10 (26 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00276398658752
+Prediction Time: 0.00994992256165
+Errors: 6 (16 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.191823959351
+Prediction Time: 0.0676760673523
+Errors: 10 (26 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0559110641479
+Prediction Time: 0.618842124939
+Errors: 10 (26 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 10
+Learning Rate = 1
+=== LinearSVM
+Training Time: 0.00102210044861
+Prediction Time: 7.60555267334e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000813007354736
+Prediction Time: 0.000251770019531
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000802993774414
+Prediction Time: 7.60555267334e-05
+Errors: 9 (24 % of test_dataset)
+=== Perceptron
+Training Time: 0.00266790390015
+Prediction Time: 0.000365972518921
+Errors: 12 (32 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00278687477112
+Prediction Time: 0.0106611251831
+Errors: 6 (16 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.190454959869
+Prediction Time: 0.0677921772003
+Errors: 12 (32 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0666599273682
+Prediction Time: 0.824680805206
+Errors: 10 (26 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 10
+Learning Rate = 1
+=== LinearSVM
+Training Time: 0.000991106033325
+Prediction Time: 7.60555267334e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000789165496826
+Prediction Time: 0.000237941741943
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000818967819214
+Prediction Time: 7.39097595215e-05
+Errors: 4 (11 % of test_dataset)
+=== Perceptron
+Training Time: 0.00265407562256
+Prediction Time: 0.000367879867554
+Errors: 16 (42 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00281691551208
+Prediction Time: 0.0104079246521
+Errors: 7 (18 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.193434000015
+Prediction Time: 0.0676817893982
+Errors: 16 (42 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0593750476837
+Prediction Time: 0.70690202713
+Errors: 20 (53 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 10
+Learning Rate = 1
+=== LinearSVM
+Training Time: 0.00100207328796
+Prediction Time: 7.41481781006e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000779151916504
+Prediction Time: 0.000294923782349
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.00078296661377
+Prediction Time: 7.20024108887e-05
+Errors: 12 (32 % of test_dataset)
+=== Perceptron
+Training Time: 0.00259900093079
+Prediction Time: 0.000378847122192
+Errors: 18 (47 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00274181365967
+Prediction Time: 0.00998306274414
+Errors: 3 ( 8 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.193516969681
+Prediction Time: 0.068263053894
+Errors: 18 (47 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0524909496307
+Prediction Time: 0.675012111664
+Errors: 20 (53 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 10
+Learning Rate = 1
+=== LinearSVM
+Training Time: 0.00117301940918
+Prediction Time: 0.000123977661133
+Errors: 0 ( 0 % of test_dataset)
+=== SVM
+Training Time: 0.000928163528442
+Prediction Time: 0.000308990478516
+Errors: 0 ( 0 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000989198684692
+Prediction Time: 9.98973846436e-05
+Errors: 0 ( 0 % of test_dataset)
+=== Perceptron
+Training Time: 0.00278902053833
+Prediction Time: 0.000365018844604
+Errors: 16 (42 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00288391113281
+Prediction Time: 0.0117831230164
+Errors: 3 ( 8 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.191504955292
+Prediction Time: 0.0658428668976
+Errors: 16 (42 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.071545124054
+Prediction Time: 0.838706970215
+Errors: 13 (34 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 10
+Learning Rate = 10
+=== LinearSVM
+Training Time: 0.00100207328796
+Prediction Time: 7.5101852417e-05
+Errors: 3 ( 8 % of test_dataset)
+=== SVM
+Training Time: 0.000830888748169
+Prediction Time: 0.000240087509155
+Errors: 3 ( 8 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000795125961304
+Prediction Time: 7.60555267334e-05
+Errors: 12 (32 % of test_dataset)
+=== Perceptron
+Training Time: 0.00259590148926
+Prediction Time: 0.000366926193237
+Errors: 12 (32 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00272917747498
+Prediction Time: 0.00965905189514
+Errors: 7 (18 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.190269947052
+Prediction Time: 0.0659999847412
+Errors: 12 (32 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0609490871429
+Prediction Time: 0.615751981735
+Errors: 19 (50 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 10
+Learning Rate = 10
+=== LinearSVM
+Training Time: 0.00107192993164
+Prediction Time: 7.70092010498e-05
+Errors: 3 ( 8 % of test_dataset)
+=== SVM
+Training Time: 0.000779151916504
+Prediction Time: 0.000237941741943
+Errors: 3 ( 8 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000782012939453
+Prediction Time: 7.29560852051e-05
+Errors: 3 ( 8 % of test_dataset)
+=== Perceptron
+Training Time: 0.00259709358215
+Prediction Time: 0.000369071960449
+Errors: 7 (18 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00270199775696
+Prediction Time: 0.0094850063324
+Errors: 5 (13 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.191293001175
+Prediction Time: 0.0659890174866
+Errors: 7 (18 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0550382137299
+Prediction Time: 0.56919002533
+Errors: 14 (37 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 10
+Learning Rate = 10
+=== LinearSVM
+Training Time: 0.00101518630981
+Prediction Time: 8.20159912109e-05
+Errors: 4 (11 % of test_dataset)
+=== SVM
+Training Time: 0.000765085220337
+Prediction Time: 0.000230073928833
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000829935073853
+Prediction Time: 8.29696655273e-05
+Errors: 14 (37 % of test_dataset)
+=== Perceptron
+Training Time: 0.00270199775696
+Prediction Time: 0.000367879867554
+Errors: 10 (26 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00287008285522
+Prediction Time: 0.0115370750427
+Errors: 4 (11 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.190319061279
+Prediction Time: 0.0657739639282
+Errors: 10 (26 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0738909244537
+Prediction Time: 0.947098016739
+Errors: 12 (32 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 10
+Learning Rate = 10
+=== LinearSVM
+Training Time: 0.00100612640381
+Prediction Time: 7.60555267334e-05
+Errors: 5 (13 % of test_dataset)
+=== SVM
+Training Time: 0.000708103179932
+Prediction Time: 0.000230073928833
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000791072845459
+Prediction Time: 7.70092010498e-05
+Errors: 6 (16 % of test_dataset)
+=== Perceptron
+Training Time: 0.00262379646301
+Prediction Time: 0.000365972518921
+Errors: 8 (21 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00274205207825
+Prediction Time: 0.00979208946228
+Errors: 5 (13 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.189489126205
+Prediction Time: 0.0654540061951
+Errors: 8 (21 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0581200122833
+Prediction Time: 0.577027082443
+Errors: 17 (45 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 10
+Learning Rate = 10
+=== LinearSVM
+Training Time: 0.00100803375244
+Prediction Time: 0.000114917755127
+Errors: 6 (16 % of test_dataset)
+=== SVM
+Training Time: 0.000786066055298
+Prediction Time: 0.00023889541626
+Errors: 3 ( 8 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000789880752563
+Prediction Time: 7.41481781006e-05
+Errors: 5 (13 % of test_dataset)
+=== Perceptron
+Training Time: 0.00260901451111
+Prediction Time: 0.000365018844604
+Errors: 8 (21 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00271701812744
+Prediction Time: 0.00979995727539
+Errors: 7 (18 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.1903860569
+Prediction Time: 0.0678071975708
+Errors: 8 (21 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.066565990448
+Prediction Time: 0.734109163284
+Errors: 9 (24 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 10
+Learning Rate = 100
+=== LinearSVM
+Training Time: 0.00102305412292
+Prediction Time: 7.79628753662e-05
+Errors: 6 (16 % of test_dataset)
+=== SVM
+Training Time: 0.00075101852417
+Prediction Time: 0.000287055969238
+Errors: 4 (11 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000789165496826
+Prediction Time: 7.39097595215e-05
+Errors: 7 (18 % of test_dataset)
+=== Perceptron
+Training Time: 0.00270295143127
+Prediction Time: 0.000383138656616
+Errors: 6 (16 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00284194946289
+Prediction Time: 0.0113658905029
+Errors: 8 (21 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.193089962006
+Prediction Time: 0.067852973938
+Errors: 6 (16 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0689220428467
+Prediction Time: 0.879570007324
+Errors: 13 (34 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 10
+Learning Rate = 100
+=== LinearSVM
+Training Time: 0.001060962677
+Prediction Time: 8.60691070557e-05
+Errors: 2 ( 5 % of test_dataset)
+=== SVM
+Training Time: 0.000816106796265
+Prediction Time: 0.000267028808594
+Errors: 0 ( 0 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000845193862915
+Prediction Time: 7.70092010498e-05
+Errors: 3 ( 8 % of test_dataset)
+=== Perceptron
+Training Time: 0.00265097618103
+Prediction Time: 0.000364065170288
+Errors: 7 (18 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0028281211853
+Prediction Time: 0.0105118751526
+Errors: 3 ( 8 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.19042301178
+Prediction Time: 0.067538022995
+Errors: 7 (18 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0623481273651
+Prediction Time: 0.71407699585
+Errors: 10 (26 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 10
+Learning Rate = 100
+=== LinearSVM
+Training Time: 0.000990867614746
+Prediction Time: 7.70092010498e-05
+Errors: 3 ( 8 % of test_dataset)
+=== SVM
+Training Time: 0.000743865966797
+Prediction Time: 0.000236988067627
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.00086522102356
+Prediction Time: 8.29696655273e-05
+Errors: 5 (13 % of test_dataset)
+=== Perceptron
+Training Time: 0.0026171207428
+Prediction Time: 0.000365972518921
+Errors: 8 (21 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00275897979736
+Prediction Time: 0.00994682312012
+Errors: 8 (21 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.191711902618
+Prediction Time: 0.0678119659424
+Errors: 8 (21 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0596759319305
+Prediction Time: 0.676841020584
+Errors: 14 (37 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 10
+Learning Rate = 100
+=== LinearSVM
+Training Time: 0.00103807449341
+Prediction Time: 7.60555267334e-05
+Errors: 3 ( 8 % of test_dataset)
+=== SVM
+Training Time: 0.000757932662964
+Prediction Time: 0.000257968902588
+Errors: 2 ( 5 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.00086498260498
+Prediction Time: 7.9870223999e-05
+Errors: 3 ( 8 % of test_dataset)
+=== Perceptron
+Training Time: 0.00273013114929
+Prediction Time: 0.000393867492676
+Errors: 6 (16 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00285410881042
+Prediction Time: 0.0116648674011
+Errors: 6 (16 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.192047834396
+Prediction Time: 0.0681209564209
+Errors: 6 (16 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0670831203461
+Prediction Time: 0.89392209053
+Errors: 11 (29 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... iris
+(112, 4) (112,)
+(38, 4) (38,)
+[1 2 3]
+Epochs = 10
+Learning Rate = 100
+=== LinearSVM
+Training Time: 0.000946044921875
+Prediction Time: 7.60555267334e-05
+Errors: 5 (13 % of test_dataset)
+=== SVM
+Training Time: 0.000740051269531
+Prediction Time: 0.000234127044678
+Errors: 1 ( 3 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000823974609375
+Prediction Time: 7.70092010498e-05
+Errors: 13 (34 % of test_dataset)
+=== Perceptron
+Training Time: 0.00254893302917
+Prediction Time: 0.000369071960449
+Errors: 9 (24 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00271081924438
+Prediction Time: 0.00922513008118
+Errors: 4 (11 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.191968917847
+Prediction Time: 0.0674970149994
+Errors: 9 (24 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0576090812683
+Prediction Time: 0.581151008606
+Errors: 22 (58 % of test_dataset)

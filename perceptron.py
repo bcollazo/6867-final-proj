@@ -15,7 +15,7 @@ class Perceptron():
 				
 				g = sign(v.dot(x))
 				if g != y:
-					v = v + y*x
+					v = v + RATE*y*x
 		self.v = v
 
 	def predict(self, X):
@@ -43,7 +43,7 @@ class VotedPerceptron():
 				if g == y:
 					cs[k] += 1
 				else:
-					v = vs[k] + y*x
+					v = vs[k] + RATE*y*x
 					vs.append(v)
 					cs.append(1)
 					k += 1

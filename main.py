@@ -12,10 +12,12 @@ from sklearn.cross_validation import train_test_split
 # DATASET_NAME = 'MNIST original'	# Big Dataset, Multiclass
 # DATASET_NAME = 'iris'	# Small Dataset, Multiclass
 # DATASET_NAME = 'australian'	# Small Dataset, Binary
-# DATASET_NAME = 'Translation Initiation Site Pred'
-DATASET_NAME = 'SensIT Vehicle (combined)'
-# DATASET_NAME = 'Central Nervous System'
+# DATASET_NAME = 'SensIT Vehicle (combined)'	# Big Dataset, Multiclass, Low Dimension
 # DATASET_NAME = 'leukemia'	# Small Dataset, High Dimension, Binary
+# DATASET_NAME = 'WINE'
+# DATASET_NAME = 'WINEQUALITY'
+# DATASET_NAME = 'SPECT'
+
 
 def train(clf, x_train, y_train):
 	a = time()
@@ -33,28 +35,37 @@ def test(clf, x_test, y_test):
 
 def main():
 	print "Loading Data...", DATASET_NAME
-	dataset = fetch_mldata(DATASET_NAME)
+	if DATASET_NAME not in ["WINE", "SPECT", "WINEQUALITY"]:
+		dataset = fetch_mldata(DATASET_NAME)
+	else:
+		dataset = load_data(DATASET_NAME)
 	x_train, x_test, y_train, y_test = train_test_split(dataset.data,
 		dataset.target)
 	print x_train.shape, y_train.shape
 	print x_test.shape, y_test.shape
 	print np.unique(y_train)
 	print "Epochs =", GLOBAL_EPOCH
+	print "Learning Rate =", RATE
+	print "Degree =", DEGREE
 
-	# print "=== LinearSVM"
-	# clf = svm.LinearSVC()
-	# train(clf, x_train, y_train)
-	# test(clf, x_test, y_test)
+	print "=== LinearSVM"
+	clf = svm.LinearSVC()
+	train(clf, x_train, y_train)
+	test(clf, x_test, y_test)
 
-	# print "=== Perceptron"
-	# # clf = Perceptron()
-	# clf = MultiClassifier(Perceptron)
-	# train(clf, x_train, y_train)
-	# test(clf, x_test, y_test)
+	print "=== SVM"
+	clf = svm.SVC()
+	train(clf, x_train, y_train)
+	test(clf, x_test, y_test)
 
-	print "=== KernelPerceptron"
-	# clf = KernelPerceptron(linear)
-	clf = MultiClassifier(KernelPerceptron)
+	print "=== SklearnPercepton"
+	clf = linear_model.Perceptron()
+	train(clf, x_train, y_train)
+	test(clf, x_test, y_test)
+
+	print "=== Perceptron"
+	# clf = Perceptron()
+	clf = MultiClassifier(Perceptron)
 	train(clf, x_train, y_train)
 	test(clf, x_test, y_test)
 
@@ -64,6 +75,25 @@ def main():
 	train(clf, x_train, y_train)
 	test(clf, x_test, y_test)
 
+	print "=== KernelPerceptron"
+	# clf = KernelPerceptron(linear)
+	clf = MultiClassifier(KernelPerceptron)
+	train(clf, x_train, y_train)
+	test(clf, x_test, y_test)
+
+	print "=== KernelVotedPerceptron"
+	# clf = KernelVotedPerceptron(linear)
+	clf = MultiClassifier(KernelVotedPerceptron)
+	train(clf, x_train, y_train)
+	test(clf, x_test, y_test)
 
 if __name__ == '__main__':
-	main()
+	for e in [1,3,5]:
+		for r in [0.1,1,10]:
+			for d in [1,3,5]:
+				GLOBAL_EPOCH = e
+				RATE = r
+				DEGREE = d
+				print "=+=+=+=+=+=+=+=+=+=+=+=+"
+				print "=+=+=+=+=+=+=+=+=+=+=+=+"
+				main()

@@ -3,7 +3,8 @@ from spect import *
 import numpy as np
 
 # Perceptron Settings
-GLOBAL_EPOCH = 5
+GLOBAL_EPOCH = 1
+RATE = 1
 # Kernel Settings
 DEGREE = 1
 def linear(x, z):
@@ -21,17 +22,31 @@ def sign(x):
 
 vsign = np.vectorize(sign)
 
-def load_data(n, dataset):
-	print "Loading Data..."
-	if n == 1:
-		x, y = load_mnist(dataset=dataset, path="data/")
-	elif n == 2:
+class Obj():
+	def __init__(self, x, y):
+		self.target = y
+		self.data = x
+
+def load_data(n, dataset='training'):
+	# if n == 1:
+	# 	x, y = load_mnist(dataset=dataset, path="data/")
+	if n == "SPECT":
 		x, y = load_spect(dataset=dataset)
+	elif n == "WINEQUALITY":
+		x = np.loadtxt('datasets/winequality-red.csv', delimiter=";")
+		y = x[:,-1]
+		x = x[:,:-1]
+	elif n == "WINE":
+		x = np.loadtxt('datasets/winequality-red.csv', delimiter=";")
+		y = x[:,-1]
+		x = x[:,:-1]
 	else:
 		x = np.array([[1,0,0],[1,0,1],[1,1,0],[1,1,1]])
 		y = np.array([[1], [1], [1], [-1]])
 
-	return x, y
+	print x
+	print y
+	return Obj(x, y)
 
 	# x_train = np.array([[1,0,0],[1,0,1],[1,1,0],[1,1,1]])
 	# y_train = np.array([1,1,1,-1])
@@ -54,7 +69,7 @@ class MultiClassifier():
 		classifiers = []
 		classes = np.unique(Y)
 		for val in classes:
-			print "Building labels", val
+			# print "Building labels", val
 			new_labels = []
 			for i in xrange(len(Y)):
 				if Y[i] == val:
@@ -62,7 +77,7 @@ class MultiClassifier():
 				else:
 					new_labels.append(-1)
 			clf = self.clf()
-			print "Training", val
+			# print "Training", val
 			clf.fit(X, np.array(new_labels))
 			classifiers.append(clf)
 		self.classes = classes
