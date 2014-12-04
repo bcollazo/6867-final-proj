@@ -6,7 +6,7 @@ import numpy as np
 GLOBAL_EPOCH = 1
 RATE = 1
 # Kernel Settings
-DEGREE = 1
+DEGREE = 5
 def linear(x, z):
 	return x.dot(z)
 def poly_kernel(x, z, d=DEGREE):

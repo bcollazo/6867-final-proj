@@ -11,7 +11,7 @@ from sklearn.cross_validation import train_test_split
 
 # DATASET_NAME = 'MNIST original'	# Big Dataset, Multiclass
 # DATASET_NAME = 'iris'	# Small Dataset, Multiclass
-# DATASET_NAME = 'australian'	# Small Dataset, Binary
+DATASET_NAME = 'australian'	# Small Dataset, Binary
 # DATASET_NAME = 'SensIT Vehicle (combined)'	# Big Dataset, Multiclass, Low Dimension
 # DATASET_NAME = 'leukemia'	# Small Dataset, High Dimension, Binary
 # DATASET_NAME = 'WINE'
@@ -97,3 +97,4 @@ if __name__ == '__main__':
 				print "=+=+=+=+=+=+=+=+=+=+=+=+"
 				print "=+=+=+=+=+=+=+=+=+=+=+=+"
 				main()
+
