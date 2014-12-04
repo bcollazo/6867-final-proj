@@ -10,10 +10,10 @@ from sklearn.datasets import load_iris, fetch_mldata
 from sklearn.cross_validation import train_test_split
 
 # DATASET_NAME = 'MNIST original'	# Big Dataset, Multiclass
-# DATASET_NAME = 'iris'	# Small Dataset, Multiclass
+DATASET_NAME = 'iris'	# Small Dataset, Multiclass
 # DATASET_NAME = 'australian'	# Small Dataset, Binary
 # DATASET_NAME = 'Translation Initiation Site Pred'
-DATASET_NAME = 'SensIT Vehicle (combined)'
+# DATASET_NAME = 'SensIT Vehicle (combined)'
 # DATASET_NAME = 'Central Nervous System'
 # DATASET_NAME = 'leukemia'	# Small Dataset, High Dimension, Binary
 
