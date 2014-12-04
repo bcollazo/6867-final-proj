@@ -3,7 +3,7 @@ from spect import *
 import numpy as np
 
 # Perceptron Settings
-GLOBAL_EPOCH = 10
+GLOBAL_EPOCH = 5
 # Kernel Settings
 DEGREE = 1
 def linear(x, z):
@@ -54,7 +54,7 @@ class MultiClassifier():
 		classifiers = []
 		classes = np.unique(Y)
 		for val in classes:
-			print "Training", val
+			print "Building labels", val
 			new_labels = []
 			for i in xrange(len(Y)):
 				if Y[i] == val:
@@ -62,6 +62,7 @@ class MultiClassifier():
 				else:
 					new_labels.append(-1)
 			clf = self.clf()
+			print "Training", val
 			clf.fit(X, np.array(new_labels))
 			classifiers.append(clf)
 		self.classes = classes

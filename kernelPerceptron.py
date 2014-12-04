@@ -1,6 +1,7 @@
 import numpy as np
 import math
 from util import *
+import random
 
 class KernelPerceptron():
 	def __init__(self, kernel=KERNEL):
@@ -14,18 +15,20 @@ class KernelPerceptron():
 		n = len(X)
 		self.n = n
 
-		for i in xrange(n):
-			for j in xrange(i, n):
-				val = self.kernel(X[i], X[j])
-				self.kMatrix[(i,j)] = val
-				self.kMatrix[(j,i)] = val
+		# for i in xrange(n):
+		# 	for j in xrange(i, n):
+		# 		val = self.kernel(X[i], X[j])
+		# 		self.kMatrix[(i,j)] = val
+		# 		self.kMatrix[(j,i)] = val
 
 		alphas = np.zeros(n)
 		for epoch in xrange(T):
 			for j in xrange(n):
+				if random.random() < 0.01: print epoch, j
 				x, y = X[j], Y[j]
 
-				kernels = [self.kMatrix[(i,j)] for i in xrange(n)]
+				# kernels = [self.kMatrix[(i,j)] for i in xrange(n)]
+				kernels = [self.kernel(X[i], x) for i in xrange(n)]
 				kernels = np.array(kernels)
 				kernels = Y*kernels
 				g = sign(alphas.dot(kernels))

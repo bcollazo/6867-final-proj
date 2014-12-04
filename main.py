@@ -39,17 +39,18 @@ def main():
 	print x_train.shape, y_train.shape
 	print x_test.shape, y_test.shape
 	print np.unique(y_train)
+	print "Epochs =", GLOBAL_EPOCH
 
 	# print "=== LinearSVM"
 	# clf = svm.LinearSVC()
 	# train(clf, x_train, y_train)
 	# test(clf, x_test, y_test)
 
-	print "=== Perceptron"
-	# clf = Perceptron()
-	clf = MultiClassifier(Perceptron)
-	train(clf, x_train, y_train)
-	test(clf, x_test, y_test)
+	# print "=== Perceptron"
+	# # clf = Perceptron()
+	# clf = MultiClassifier(Perceptron)
+	# train(clf, x_train, y_train)
+	# test(clf, x_test, y_test)
 
 	print "=== KernelPerceptron"
 	# clf = KernelPerceptron(linear)
