@@ -1,0 +1,941 @@
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... australian
+(517, 14) (517,)
+(173, 14) (173,)
+[-1  1]
+Epochs = 1
+Learning Rate = 0.01
+Degree = 1
+=== LinearSVM
+Training Time: 0.0608720779419
+Prediction Time: 0.000179052352905
+Errors: 36 (21 % of test_dataset)
+=== SVM
+Training Time: 0.0546259880066
+Prediction Time: 0.0149629116058
+Errors: 83 (48 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.00102210044861
+Prediction Time: 0.000142812728882
+Errors: 60 (35 % of test_dataset)
+=== Perceptron
+Training Time: 0.0100800991058
+Prediction Time: 0.00109791755676
+Errors: 61 (35 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0105800628662
+Prediction Time: 0.265487909317
+Errors: 62 (36 % of test_dataset)
+=== KernelPerceptron
+Training Time: 2.69175410271
+Prediction Time: 0.921198129654
+Errors: 61 (35 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 1.33720088005
+Prediction Time: 94.6702477932
+Errors: 63 (36 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... australian
+(517, 14) (517,)
+(173, 14) (173,)
+[-1  1]
+Epochs = 1
+Learning Rate = 0.01
+Degree = 2
+=== LinearSVM
+Training Time: 0.0608201026917
+Prediction Time: 0.000169992446899
+Errors: 99 (57 % of test_dataset)
+=== SVM
+Training Time: 0.0564019680023
+Prediction Time: 0.0148360729218
+Errors: 79 (46 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000773906707764
+Prediction Time: 0.000115156173706
+Errors: 79 (46 % of test_dataset)
+=== Perceptron
+Training Time: 0.00980091094971
+Prediction Time: 0.00120496749878
+Errors: 80 (46 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0105249881744
+Prediction Time: 0.283215999603
+Errors: 72 (42 % of test_dataset)
+=== KernelPerceptron
+Training Time: 2.7841398716
+Prediction Time: 0.937298059464
+Errors: 80 (46 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 1.36782217026
+Prediction Time: 89.9198610783
+Errors: 72 (42 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... australian
+(517, 14) (517,)
+(173, 14) (173,)
+[-1  1]
+Epochs = 1
+Learning Rate = 0.01
+Degree = 3
+=== LinearSVM
+Training Time: 0.0603477954865
+Prediction Time: 0.000172138214111
+Errors: 42 (24 % of test_dataset)
+=== SVM
+Training Time: 0.0549471378326
+Prediction Time: 0.0146408081055
+Errors: 86 (50 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000859022140503
+Prediction Time: 0.000125885009766
+Errors: 68 (39 % of test_dataset)
+=== Perceptron
+Training Time: 0.0102639198303
+Prediction Time: 0.00113582611084
+Errors: 70 (40 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0108840465546
+Prediction Time: 0.28000497818
+Errors: 60 (35 % of test_dataset)
+=== KernelPerceptron
+Training Time: 2.8219909668
+Prediction Time: 0.963752031326
+Errors: 70 (40 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 1.61549782753
+Prediction Time: 100.589296818
+Errors: 59 (34 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... australian
+(517, 14) (517,)
+(173, 14) (173,)
+[-1  1]
+Epochs = 1
+Learning Rate = 0.01
+Degree = 4
+=== LinearSVM
+Training Time: 0.0596981048584
+Prediction Time: 0.000133037567139
+Errors: 26 (15 % of test_dataset)
+=== SVM
+Training Time: 0.0539779663086
+Prediction Time: 0.014436006546
+Errors: 74 (43 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000720977783203
+Prediction Time: 9.58442687988e-05
+Errors: 65 (38 % of test_dataset)
+=== Perceptron
+Training Time: 0.00987195968628
+Prediction Time: 0.00103712081909
+Errors: 75 (43 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0103979110718
+Prediction Time: 0.273328065872
+Errors: 67 (39 % of test_dataset)
+=== KernelPerceptron
+Training Time: 2.712485075
+Prediction Time: 0.9204621315
+Errors: 75 (43 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 1.44298696518
+Prediction Time: 99.5935761929
+Errors: 62 (36 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... australian
+(517, 14) (517,)
+(173, 14) (173,)
+[-1  1]
+Epochs = 1
+Learning Rate = 0.01
+Degree = 5
+=== LinearSVM
+Training Time: 0.0625069141388
+Prediction Time: 0.000182867050171
+Errors: 39 (23 % of test_dataset)
+=== SVM
+Training Time: 0.0549371242523
+Prediction Time: 0.014858007431
+Errors: 80 (46 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000877857208252
+Prediction Time: 0.0001220703125
+Errors: 59 (34 % of test_dataset)
+=== Perceptron
+Training Time: 0.0151989459991
+Prediction Time: 0.00127506256104
+Errors: 61 (35 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0109221935272
+Prediction Time: 0.287111997604
+Errors: 59 (34 % of test_dataset)
+=== KernelPerceptron
+Training Time: 2.87613081932
+Prediction Time: 0.970468044281
+Errors: 61 (35 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 1.55670905113
+Prediction Time: 104.858232975
+Errors: 59 (34 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... australian
+(517, 14) (517,)
+(173, 14) (173,)
+[-1  1]
+Epochs = 1
+Learning Rate = 0.1
+Degree = 1
+=== LinearSVM
+Training Time: 0.0612049102783
+Prediction Time: 0.00014591217041
+Errors: 40 (23 % of test_dataset)
+=== SVM
+Training Time: 0.0536980628967
+Prediction Time: 0.0144619941711
+Errors: 88 (51 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000710010528564
+Prediction Time: 9.79900360107e-05
+Errors: 58 (34 % of test_dataset)
+=== Perceptron
+Training Time: 0.00955700874329
+Prediction Time: 0.001051902771
+Errors: 59 (34 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.010185956955
+Prediction Time: 0.247643947601
+Errors: 60 (35 % of test_dataset)
+=== KernelPerceptron
+Training Time: 2.69911885262
+Prediction Time: 0.92818403244
+Errors: 59 (34 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 1.36541223526
+Prediction Time: 81.7706480026
+Errors: 61 (35 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... australian
+(517, 14) (517,)
+(173, 14) (173,)
+[-1  1]
+Epochs = 1
+Learning Rate = 0.1
+Degree = 2
+=== LinearSVM
+Training Time: 0.0598320960999
+Prediction Time: 0.000164985656738
+Errors: 46 (27 % of test_dataset)
+=== SVM
+Training Time: 0.0543448925018
+Prediction Time: 0.0146598815918
+Errors: 67 (39 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000899076461792
+Prediction Time: 0.000140905380249
+Errors: 71 (41 % of test_dataset)
+=== Perceptron
+Training Time: 0.0100700855255
+Prediction Time: 0.00108695030212
+Errors: 68 (39 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0105178356171
+Prediction Time: 0.268649816513
+Errors: 75 (43 % of test_dataset)
+=== KernelPerceptron
+Training Time: 2.7231400013
+Prediction Time: 0.943600893021
+Errors: 68 (39 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 1.38921999931
+Prediction Time: 92.4676840305
+Errors: 72 (42 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... australian
+(517, 14) (517,)
+(173, 14) (173,)
+[-1  1]
+Epochs = 1
+Learning Rate = 0.1
+Degree = 3
+=== LinearSVM
+Training Time: 0.059741973877
+Prediction Time: 0.000138998031616
+Errors: 39 (23 % of test_dataset)
+=== SVM
+Training Time: 0.0539519786835
+Prediction Time: 0.014456987381
+Errors: 80 (46 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000730037689209
+Prediction Time: 9.89437103271e-05
+Errors: 53 (31 % of test_dataset)
+=== Perceptron
+Training Time: 0.0101671218872
+Prediction Time: 0.00108504295349
+Errors: 59 (34 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0107450485229
+Prediction Time: 0.288914203644
+Errors: 51 (29 % of test_dataset)
+=== KernelPerceptron
+Training Time: 2.69972801208
+Prediction Time: 0.92814707756
+Errors: 59 (34 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 1.63383102417
+Prediction Time: 113.006954908
+Errors: 52 (30 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... australian
+(517, 14) (517,)
+(173, 14) (173,)
+[-1  1]
+Epochs = 1
+Learning Rate = 0.1
+Degree = 4
+=== LinearSVM
+Training Time: 0.0604951381683
+Prediction Time: 0.000169992446899
+Errors: 54 (31 % of test_dataset)
+=== SVM
+Training Time: 0.0553870201111
+Prediction Time: 0.0148417949677
+Errors: 72 (42 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000866174697876
+Prediction Time: 0.000140905380249
+Errors: 50 (29 % of test_dataset)
+=== Perceptron
+Training Time: 0.0105609893799
+Prediction Time: 0.00114393234253
+Errors: 53 (31 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0109920501709
+Prediction Time: 0.282102108002
+Errors: 54 (31 % of test_dataset)
+=== KernelPerceptron
+Training Time: 2.69930386543
+Prediction Time: 0.924032926559
+Errors: 53 (31 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 1.55862808228
+Prediction Time: 104.900428057
+Errors: 54 (31 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... australian
+(517, 14) (517,)
+(173, 14) (173,)
+[-1  1]
+Epochs = 1
+Learning Rate = 0.1
+Degree = 5
+=== LinearSVM
+Training Time: 0.06077003479
+Prediction Time: 0.000155925750732
+Errors: 28 (16 % of test_dataset)
+=== SVM
+Training Time: 0.0540850162506
+Prediction Time: 0.0144910812378
+Errors: 74 (43 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000696897506714
+Prediction Time: 9.70363616943e-05
+Errors: 64 (37 % of test_dataset)
+=== Perceptron
+Training Time: 0.00968384742737
+Prediction Time: 0.00104188919067
+Errors: 61 (35 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0101389884949
+Prediction Time: 0.257925987244
+Errors: 68 (39 % of test_dataset)
+=== KernelPerceptron
+Training Time: 2.65856313705
+Prediction Time: 0.913182020187
+Errors: 61 (35 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 1.45161604881
+Prediction Time: 87.4604179859
+Errors: 66 (38 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... australian
+(517, 14) (517,)
+(173, 14) (173,)
+[-1  1]
+Epochs = 1
+Learning Rate = 1
+Degree = 1
+=== LinearSVM
+Training Time: 0.0629770755768
+Prediction Time: 0.00013279914856
+Errors: 67 (39 % of test_dataset)
+=== SVM
+Training Time: 0.0535259246826
+Prediction Time: 0.0145511627197
+Errors: 72 (42 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.00075101852417
+Prediction Time: 9.89437103271e-05
+Errors: 53 (31 % of test_dataset)
+=== Perceptron
+Training Time: 0.0101780891418
+Prediction Time: 0.00104999542236
+Errors: 53 (31 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0106220245361
+Prediction Time: 0.294579982758
+Errors: 52 (30 % of test_dataset)
+=== KernelPerceptron
+Training Time: 2.67031502724
+Prediction Time: 0.909971952438
+Errors: 53 (31 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 1.50523805618
+Prediction Time: 111.398205042
+Errors: 52 (30 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... australian
+(517, 14) (517,)
+(173, 14) (173,)
+[-1  1]
+Epochs = 1
+Learning Rate = 1
+Degree = 2
+=== LinearSVM
+Training Time: 0.0609500408173
+Prediction Time: 0.000134944915771
+Errors: 57 (33 % of test_dataset)
+=== SVM
+Training Time: 0.05397605896
+Prediction Time: 0.0144181251526
+Errors: 85 (49 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000707149505615
+Prediction Time: 9.60826873779e-05
+Errors: 53 (31 % of test_dataset)
+=== Perceptron
+Training Time: 0.00979804992676
+Prediction Time: 0.00106596946716
+Errors: 55 (32 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0102939605713
+Prediction Time: 0.263242006302
+Errors: 48 (28 % of test_dataset)
+=== KernelPerceptron
+Training Time: 2.67065787315
+Prediction Time: 0.917755126953
+Errors: 55 (32 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 1.45129299164
+Prediction Time: 91.5497720242
+Errors: 48 (28 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... australian
+(517, 14) (517,)
+(173, 14) (173,)
+[-1  1]
+Epochs = 1
+Learning Rate = 1
+Degree = 3
+=== LinearSVM
+Training Time: 0.0609319210052
+Prediction Time: 0.000128030776978
+Errors: 35 (20 % of test_dataset)
+=== SVM
+Training Time: 0.0540888309479
+Prediction Time: 0.0145199298859
+Errors: 76 (44 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000725030899048
+Prediction Time: 9.60826873779e-05
+Errors: 59 (34 % of test_dataset)
+=== Perceptron
+Training Time: 0.00977611541748
+Prediction Time: 0.00103712081909
+Errors: 62 (36 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0102560520172
+Prediction Time: 0.264474153519
+Errors: 60 (35 % of test_dataset)
+=== KernelPerceptron
+Training Time: 2.65606713295
+Prediction Time: 0.911412000656
+Errors: 62 (36 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 1.37577295303
+Prediction Time: 91.6410830021
+Errors: 62 (36 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... australian
+(517, 14) (517,)
+(173, 14) (173,)
+[-1  1]
+Epochs = 1
+Learning Rate = 1
+Degree = 4
+=== LinearSVM
+Training Time: 0.0601470470428
+Prediction Time: 0.000133991241455
+Errors: 34 (20 % of test_dataset)
+=== SVM
+Training Time: 0.0536978244781
+Prediction Time: 0.0144169330597
+Errors: 76 (44 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.00074315071106
+Prediction Time: 9.91821289062e-05
+Errors: 52 (30 % of test_dataset)
+=== Perceptron
+Training Time: 0.00967502593994
+Prediction Time: 0.00104522705078
+Errors: 66 (38 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0101568698883
+Prediction Time: 0.259662866592
+Errors: 58 (34 % of test_dataset)
+=== KernelPerceptron
+Training Time: 2.66540694237
+Prediction Time: 0.912773132324
+Errors: 66 (38 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 1.4030148983
+Prediction Time: 87.8492848873
+Errors: 61 (35 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... australian
+(517, 14) (517,)
+(173, 14) (173,)
+[-1  1]
+Epochs = 1
+Learning Rate = 1
+Degree = 5
+=== LinearSVM
+Training Time: 0.0597867965698
+Prediction Time: 0.000147819519043
+Errors: 76 (44 % of test_dataset)
+=== SVM
+Training Time: 0.0540361404419
+Prediction Time: 0.0144391059875
+Errors: 76 (44 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000702142715454
+Prediction Time: 9.51290130615e-05
+Errors: 67 (39 % of test_dataset)
+=== Perceptron
+Training Time: 0.00949001312256
+Prediction Time: 0.00104999542236
+Errors: 67 (39 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.00991296768188
+Prediction Time: 0.248443126678
+Errors: 65 (38 % of test_dataset)
+=== KernelPerceptron
+Training Time: 2.63165521622
+Prediction Time: 0.908900022507
+Errors: 67 (39 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 1.33246779442
+Prediction Time: 82.190459013
+Errors: 65 (38 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... australian
+(517, 14) (517,)
+(173, 14) (173,)
+[-1  1]
+Epochs = 1
+Learning Rate = 10
+Degree = 1
+=== LinearSVM
+Training Time: 0.0611510276794
+Prediction Time: 0.000128030776978
+Errors: 30 (17 % of test_dataset)
+=== SVM
+Training Time: 0.053554058075
+Prediction Time: 0.014454126358
+Errors: 80 (46 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000752925872803
+Prediction Time: 9.79900360107e-05
+Errors: 56 (32 % of test_dataset)
+=== Perceptron
+Training Time: 0.00986409187317
+Prediction Time: 0.00103402137756
+Errors: 56 (32 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0103788375854
+Prediction Time: 0.270323038101
+Errors: 55 (32 % of test_dataset)
+=== KernelPerceptron
+Training Time: 2.65965008736
+Prediction Time: 0.910758018494
+Errors: 56 (32 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 1.46321105957
+Prediction Time: 96.0809211731
+Errors: 56 (32 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... australian
+(517, 14) (517,)
+(173, 14) (173,)
+[-1  1]
+Epochs = 1
+Learning Rate = 10
+Degree = 2
+=== LinearSVM
+Training Time: 0.0563981533051
+Prediction Time: 0.000150918960571
+Errors: 36 (21 % of test_dataset)
+=== SVM
+Training Time: 0.0538010597229
+Prediction Time: 0.0143990516663
+Errors: 69 (40 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000710010528564
+Prediction Time: 9.60826873779e-05
+Errors: 57 (33 % of test_dataset)
+=== Perceptron
+Training Time: 0.00992012023926
+Prediction Time: 0.00106191635132
+Errors: 61 (35 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0104019641876
+Prediction Time: 0.275379180908
+Errors: 65 (38 % of test_dataset)
+=== KernelPerceptron
+Training Time: 2.64012598991
+Prediction Time: 0.914109945297
+Errors: 61 (35 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 1.50373506546
+Prediction Time: 102.069448948
+Errors: 63 (36 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... australian
+(517, 14) (517,)
+(173, 14) (173,)
+[-1  1]
+Epochs = 1
+Learning Rate = 10
+Degree = 3
+=== LinearSVM
+Training Time: 0.0617740154266
+Prediction Time: 0.000149011611938
+Errors: 32 (18 % of test_dataset)
+=== SVM
+Training Time: 0.0541930198669
+Prediction Time: 0.0144059658051
+Errors: 72 (42 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000700950622559
+Prediction Time: 9.70363616943e-05
+Errors: 52 (30 % of test_dataset)
+=== Perceptron
+Training Time: 0.00978088378906
+Prediction Time: 0.00103616714478
+Errors: 60 (35 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.010274887085
+Prediction Time: 0.268242835999
+Errors: 70 (40 % of test_dataset)
+=== KernelPerceptron
+Training Time: 2.66726398468
+Prediction Time: 0.911337137222
+Errors: 60 (35 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 1.35910511017
+Prediction Time: 94.3151869774
+Errors: 70 (40 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... australian
+(517, 14) (517,)
+(173, 14) (173,)
+[-1  1]
+Epochs = 1
+Learning Rate = 10
+Degree = 4
+=== LinearSVM
+Training Time: 0.0598380565643
+Prediction Time: 0.00016188621521
+Errors: 35 (20 % of test_dataset)
+=== SVM
+Training Time: 0.0538070201874
+Prediction Time: 0.0145058631897
+Errors: 83 (48 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000750064849854
+Prediction Time: 9.60826873779e-05
+Errors: 62 (36 % of test_dataset)
+=== Perceptron
+Training Time: 0.0098569393158
+Prediction Time: 0.00107002258301
+Errors: 61 (35 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0104510784149
+Prediction Time: 0.276713848114
+Errors: 59 (34 % of test_dataset)
+=== KernelPerceptron
+Training Time: 2.68469595909
+Prediction Time: 0.912925958633
+Errors: 61 (35 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 1.42732596397
+Prediction Time: 108.654114008
+Errors: 58 (34 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... australian
+(517, 14) (517,)
+(173, 14) (173,)
+[-1  1]
+Epochs = 1
+Learning Rate = 10
+Degree = 5
+=== LinearSVM
+Training Time: 0.0613830089569
+Prediction Time: 0.000186920166016
+Errors: 32 (18 % of test_dataset)
+=== SVM
+Training Time: 0.0561108589172
+Prediction Time: 0.0148680210114
+Errors: 75 (43 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000881195068359
+Prediction Time: 0.000159978866577
+Errors: 69 (40 % of test_dataset)
+=== Perceptron
+Training Time: 0.0102579593658
+Prediction Time: 0.00114607810974
+Errors: 69 (40 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0110549926758
+Prediction Time: 0.286551952362
+Errors: 68 (39 % of test_dataset)
+=== KernelPerceptron
+Training Time: 2.92611789703
+Prediction Time: 0.995510101318
+Errors: 69 (40 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 1.50497412682
+Prediction Time: 99.2506840229
+Errors: 68 (39 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... australian
+(517, 14) (517,)
+(173, 14) (173,)
+[-1  1]
+Epochs = 1
+Learning Rate = 100
+Degree = 1
+=== LinearSVM
+Training Time: 0.0627951622009
+Prediction Time: 0.000185966491699
+Errors: 33 (19 % of test_dataset)
+=== SVM
+Training Time: 0.0568330287933
+Prediction Time: 0.0150980949402
+Errors: 77 (45 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.00103688240051
+Prediction Time: 0.000166177749634
+Errors: 73 (42 % of test_dataset)
+=== Perceptron
+Training Time: 0.0104119777679
+Prediction Time: 0.00116300582886
+Errors: 58 (34 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.011458158493
+Prediction Time: 0.291976928711
+Errors: 68 (39 % of test_dataset)
+=== KernelPerceptron
+Training Time: 3.02620697021
+Prediction Time: 1.04294085503
+Errors: 58 (34 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 1.57627010345
+Prediction Time: 99.9389789104
+Errors: 68 (39 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... australian
+(517, 14) (517,)
+(173, 14) (173,)
+[-1  1]
+Epochs = 1
+Learning Rate = 100
+Degree = 2
+=== LinearSVM
+Training Time: 0.0667700767517
+Prediction Time: 0.000190019607544
+Errors: 78 (45 % of test_dataset)
+=== SVM
+Training Time: 0.0556709766388
+Prediction Time: 0.0152039527893
+Errors: 80 (46 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000903844833374
+Prediction Time: 0.000163078308105
+Errors: 75 (43 % of test_dataset)
+=== Perceptron
+Training Time: 0.0103781223297
+Prediction Time: 0.00110793113708
+Errors: 80 (46 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0116350650787
+Prediction Time: 0.294768095016
+Errors: 60 (35 % of test_dataset)
+=== KernelPerceptron
+Training Time: 2.95993089676
+Prediction Time: 1.02279400826
+Errors: 80 (46 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 1.53450417519
+Prediction Time: 103.631386042
+Errors: 59 (34 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... australian
+(517, 14) (517,)
+(173, 14) (173,)
+[-1  1]
+Epochs = 1
+Learning Rate = 100
+Degree = 3
+=== LinearSVM
+Training Time: 0.0608911514282
+Prediction Time: 0.000187158584595
+Errors: 37 (21 % of test_dataset)
+=== SVM
+Training Time: 0.0568251609802
+Prediction Time: 0.0152688026428
+Errors: 80 (46 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000910997390747
+Prediction Time: 0.000178813934326
+Errors: 58 (34 % of test_dataset)
+=== Perceptron
+Training Time: 0.0106599330902
+Prediction Time: 0.00123190879822
+Errors: 57 (33 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.011246919632
+Prediction Time: 0.307474136353
+Errors: 54 (31 % of test_dataset)
+=== KernelPerceptron
+Training Time: 2.93460798264
+Prediction Time: 1.00163912773
+Errors: 57 (33 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 1.52924108505
+Prediction Time: 123.141047955
+Errors: 54 (31 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... australian
+(517, 14) (517,)
+(173, 14) (173,)
+[-1  1]
+Epochs = 1
+Learning Rate = 100
+Degree = 4
+=== LinearSVM
+Training Time: 0.0629711151123
+Prediction Time: 0.000187873840332
+Errors: 43 (25 % of test_dataset)
+=== SVM
+Training Time: 0.0562398433685
+Prediction Time: 0.0147430896759
+Errors: 72 (42 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000887870788574
+Prediction Time: 0.000159025192261
+Errors: 59 (34 % of test_dataset)
+=== Perceptron
+Training Time: 0.0101270675659
+Prediction Time: 0.00111389160156
+Errors: 58 (34 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0107772350311
+Prediction Time: 0.287822961807
+Errors: 64 (37 % of test_dataset)
+=== KernelPerceptron
+Training Time: 2.85548400879
+Prediction Time: 0.979804992676
+Errors: 58 (34 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 1.53137111664
+Prediction Time: 100.594235897
+Errors: 63 (36 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... australian
+(517, 14) (517,)
+(173, 14) (173,)
+[-1  1]
+Epochs = 1
+Learning Rate = 100
+Degree = 5
+=== LinearSVM
+Training Time: 0.0614581108093
+Prediction Time: 0.000186920166016
+Errors: 33 (19 % of test_dataset)
+=== SVM
+Training Time: 0.0555799007416
+Prediction Time: 0.0146429538727
+Errors: 78 (45 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.000880002975464
+Prediction Time: 0.000159025192261
+Errors: 55 (32 % of test_dataset)
+=== Perceptron
+Training Time: 0.00996804237366
+Prediction Time: 0.00114798545837
+Errors: 56 (32 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0108768939972
+Prediction Time: 0.275216817856
+Errors: 57 (33 % of test_dataset)
+=== KernelPerceptron
+Training Time: 2.88007688522
+Prediction Time: 0.983685970306
+Errors: 56 (32 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 1.42426300049
+Prediction Time: 91.7654099464
+Errors: 56 (32 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... australian
+(517, 14) (517,)
+(173, 14) (173,)
+[-1  1]
+Epochs = 3
+Learning Rate = 0.01
+Degree = 1
+=== LinearSVM
+Training Time: 0.061595916748
+Prediction Time: 0.000188112258911
+Errors: 35 (20 % of test_dataset)
+=== SVM
+Training Time: 0.0673410892487
+Prediction Time: 0.01470

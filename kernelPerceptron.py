@@ -1,6 +1,7 @@
 import numpy as np
 import math
 from util import *
+import random
 
 class KernelPerceptron():
 	def __init__(self, kernel=KERNEL):
@@ -14,18 +15,15 @@ class KernelPerceptron():
 		n = len(X)
 		self.n = n
 
-		for i in xrange(n):
-			for j in xrange(i, n):
-				val = self.kernel(X[i], X[j])
-				self.kMatrix[(i,j)] = val
-				self.kMatrix[(j,i)] = val
-
 		alphas = np.zeros(n)
 		for epoch in xrange(T):
+			print "EPOCH", epoch
 			for j in xrange(n):
+				# if random.random() < 0.01: print epoch, j
 				x, y = X[j], Y[j]
 
-				kernels = [self.kMatrix[(i,j)] for i in xrange(n)]
+				# kernels = [self.kMatrix[(i,j)] for i in xrange(n)]
+				kernels = [self.kernel(X[i], x) for i in xrange(n)]
 				kernels = np.array(kernels)
 				kernels = Y*kernels
 				g = sign(alphas.dot(kernels))
@@ -43,40 +41,45 @@ class KernelPerceptron():
 			for x in X])
 
 class KernelVotedPerceptron():
-	def __init__(self):
-		self.weights = []
-		self.vectors = []
+	def __init__(self, kernel=KERNEL):
+		self.kernel = KERNEL
+		self.u = []
+		self.c = []
 		self.k = 0
 
 	def fit(self, X, Y, T=GLOBAL_EPOCH):
-		k = 0
-		vs = [np.zeros(X[0].shape)]
-		cs = [0]
-		for j in xrange(T):
-			for i in xrange(len(X)):
-				x = X[i]
-				y = Y[i]
+		self.X = X
+		self.Y = Y
 
-				g = sign(vs[k].dot(x))
-				if g == y:
-					cs[k] += 1
+		k = 0
+		c = [0]
+		u = []
+		for epoch in xrange(T):
+			for i in xrange(len(X)):
+
+				g = sign(sum([Y[u[j]]*self.kernel(X[u[j]], X[i]) for j in xrange(k)]))
+				
+				if g == Y[i]:
+					c[k] += 1
 				else:
-					v = vs[k] + y*x
-					vs.append(v)
-					cs.append(1)
+					u.append(i)
+					c.append(1)
 					k += 1
 		self.k = k
-		self.weights = cs
-		self.vectors = vs
+		self.c = np.array(c[:-1])
+		self.u = u
 
 	def predict(self, X):
-		# guesses = [sign(sum([self.weights[j]*
-		# 	sign(x.dot(self.vectors[j])) 
-		# 	for j in xrange(self.k)])) for x in X]
-		# return np.array(guesses)
 		return vsign(self.value_predict(X))
 
 	def value_predict(self, X):
-		return [sum([self.weights[j]*
-			sign(x.dot(self.vectors[j]))
-			for j in xrange(self.k)]) for x in X]
+		guesses = []
+		for x in X:
+			signs = np.array([sign(sum([self.Y[self.u[j]]*
+				self.kernel(self.X[self.u[j]], x) for j in xrange(i)])) 
+				for i in xrange(self.k)])
+			# print self.c.shape, signs.shape 
+			g = sign(self.c.dot(signs))
+			guesses.append(g)
+		return np.array(guesses)
+		

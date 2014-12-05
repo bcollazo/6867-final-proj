@@ -1,0 +1,999 @@
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... leukemia
+(54L, 7129L) (54L,)
+(18L, 7129L) (18L,)
+[-1  1]
+Epochs = 1
+Learning Rate = 0.1
+Degree = 1
+=== LinearSVM
+Training Time: 0.0150001049042
+Prediction Time: 0.0
+Errors: 5 (28 % of test_dataset)
+=== SVM
+Training Time: 0.0309998989105
+Prediction Time: 0.0160000324249
+Errors: 3 (17 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 6 (33 % of test_dataset)
+=== Perceptron
+Training Time: 0.0160000324249
+Prediction Time: 0.0
+Errors: 5 (28 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 2 (11 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.0620000362396
+Prediction Time: 0.0309998989105
+Errors: 7 (39 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0160000324249
+Prediction Time: 0.0780000686646
+Errors: 7 (39 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... leukemia
+(54L, 7129L) (54L,)
+(18L, 7129L) (18L,)
+[-1  1]
+Epochs = 1
+Learning Rate = 0.1
+Degree = 3
+=== LinearSVM
+Training Time: 0.0309998989105
+Prediction Time: 0.0
+Errors: 2 (11 % of test_dataset)
+=== SVM
+Training Time: 0.0310001373291
+Prediction Time: 0.0160000324249
+Errors: 1 ( 6 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 4 (22 % of test_dataset)
+=== Perceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 7 (39 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0
+Prediction Time: 0.0159997940063
+Errors: 2 (11 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.0620000362396
+Prediction Time: 0.0310001373291
+Errors: 3 (17 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0160000324249
+Prediction Time: 0.140999794006
+Errors: 6 (33 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... leukemia
+(54L, 7129L) (54L,)
+(18L, 7129L) (18L,)
+[-1  1]
+Epochs = 1
+Learning Rate = 0.1
+Degree = 5
+=== LinearSVM
+Training Time: 0.0309998989105
+Prediction Time: 0.0
+Errors: 2 (11 % of test_dataset)
+=== SVM
+Training Time: 0.0320000648499
+Prediction Time: 0.0
+Errors: 3 (17 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.0150001049042
+Prediction Time: 0.0
+Errors: 3 (17 % of test_dataset)
+=== Perceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 4 (22 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 2 (11 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.077999830246
+Prediction Time: 0.0320000648499
+Errors: 7 (39 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0310001373291
+Prediction Time: 0.108999967575
+Errors: 6 (33 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... leukemia
+(54L, 7129L) (54L,)
+(18L, 7129L) (18L,)
+[-1  1]
+Epochs = 1
+Learning Rate = 1
+Degree = 1
+=== LinearSVM
+Training Time: 0.0309998989105
+Prediction Time: 0.0
+Errors: 3 (17 % of test_dataset)
+=== SVM
+Training Time: 0.0309998989105
+Prediction Time: 0.0
+Errors: 0 ( 0 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 5 (28 % of test_dataset)
+=== Perceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 8 (44 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0
+Prediction Time: 0.0160000324249
+Errors: 5 (28 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.0780000686646
+Prediction Time: 0.0309998989105
+Errors: 3 (17 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0160000324249
+Prediction Time: 0.125
+Errors: 9 (50 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... leukemia
+(54L, 7129L) (54L,)
+(18L, 7129L) (18L,)
+[-1  1]
+Epochs = 1
+Learning Rate = 1
+Degree = 3
+=== LinearSVM
+Training Time: 0.0309998989105
+Prediction Time: 0.0
+Errors: 1 ( 6 % of test_dataset)
+=== SVM
+Training Time: 0.0309998989105
+Prediction Time: 0.0160000324249
+Errors: 4 (22 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 2 (11 % of test_dataset)
+=== Perceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 4 (22 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0160000324249
+Prediction Time: 0.0
+Errors: 3 (17 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.0780000686646
+Prediction Time: 0.0309998989105
+Errors: 2 (11 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0160000324249
+Prediction Time: 0.125
+Errors: 5 (28 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... leukemia
+(54L, 7129L) (54L,)
+(18L, 7129L) (18L,)
+[-1  1]
+Epochs = 1
+Learning Rate = 1
+Degree = 5
+=== LinearSVM
+Training Time: 0.0319998264313
+Prediction Time: 0.0
+Errors: 3 (17 % of test_dataset)
+=== SVM
+Training Time: 0.0310001373291
+Prediction Time: 0.0149998664856
+Errors: 6 (33 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 3 (17 % of test_dataset)
+=== Perceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 5 (28 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0
+Prediction Time: 0.0160000324249
+Errors: 3 (17 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.0629999637604
+Prediction Time: 0.0310001373291
+Errors: 7 (39 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0149998664856
+Prediction Time: 0.110000133514
+Errors: 6 (33 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... leukemia
+(54L, 7129L) (54L,)
+(18L, 7129L) (18L,)
+[-1  1]
+Epochs = 1
+Learning Rate = 10
+Degree = 1
+=== LinearSVM
+Training Time: 0.047000169754
+Prediction Time: 0.0
+Errors: 1 ( 6 % of test_dataset)
+=== SVM
+Training Time: 0.0319998264313
+Prediction Time: 0.0
+Errors: 3 (17 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 1 ( 6 % of test_dataset)
+=== Perceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 4 (22 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0
+Prediction Time: 0.0160000324249
+Errors: 2 (11 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.0620000362396
+Prediction Time: 0.0160000324249
+Errors: 4 (22 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0309998989105
+Prediction Time: 0.203000068665
+Errors: 2 (11 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... leukemia
+(54L, 7129L) (54L,)
+(18L, 7129L) (18L,)
+[-1  1]
+Epochs = 1
+Learning Rate = 10
+Degree = 3
+=== LinearSVM
+Training Time: 0.0469999313354
+Prediction Time: 0.0
+Errors: 4 (22 % of test_dataset)
+=== SVM
+Training Time: 0.0309998989105
+Prediction Time: 0.0
+Errors: 3 (17 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.0160000324249
+Prediction Time: 0.0
+Errors: 5 (28 % of test_dataset)
+=== Perceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 3 (17 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 3 (17 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.0620000362396
+Prediction Time: 0.0160000324249
+Errors: 5 (28 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0149998664856
+Prediction Time: 0.0629999637604
+Errors: 6 (33 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... leukemia
+(54L, 7129L) (54L,)
+(18L, 7129L) (18L,)
+[-1  1]
+Epochs = 1
+Learning Rate = 10
+Degree = 5
+=== LinearSVM
+Training Time: 0.0320000648499
+Prediction Time: 0.0
+Errors: 3 (17 % of test_dataset)
+=== SVM
+Training Time: 0.0309998989105
+Prediction Time: 0.0150001049042
+Errors: 4 (22 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 3 (17 % of test_dataset)
+=== Perceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 3 (17 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0
+Prediction Time: 0.0160000324249
+Errors: 4 (22 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.0629999637604
+Prediction Time: 0.0309998989105
+Errors: 4 (22 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0150001049042
+Prediction Time: 0.0629999637604
+Errors: 7 (39 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... leukemia
+(54L, 7129L) (54L,)
+(18L, 7129L) (18L,)
+[-1  1]
+Epochs = 3
+Learning Rate = 0.1
+Degree = 1
+=== LinearSVM
+Training Time: 0.0309998989105
+Prediction Time: 0.0
+Errors: 5 (28 % of test_dataset)
+=== SVM
+Training Time: 0.0310001373291
+Prediction Time: 0.0159997940063
+Errors: 4 (22 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 3 (17 % of test_dataset)
+=== Perceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 4 (22 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0
+Prediction Time: 0.0150001049042
+Errors: 3 (17 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.0940001010895
+Prediction Time: 0.0159997940063
+Errors: 8 (44 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0310001373291
+Prediction Time: 0.141000032425
+Errors: 5 (28 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... leukemia
+(54L, 7129L) (54L,)
+(18L, 7129L) (18L,)
+[-1  1]
+Epochs = 3
+Learning Rate = 0.1
+Degree = 3
+=== LinearSVM
+Training Time: 0.0310001373291
+Prediction Time: 0.0
+Errors: 2 (11 % of test_dataset)
+=== SVM
+Training Time: 0.0319998264313
+Prediction Time: 0.0
+Errors: 3 (17 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.0150001049042
+Prediction Time: 0.0
+Errors: 1 ( 6 % of test_dataset)
+=== Perceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 3 (17 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0
+Prediction Time: 0.0160000324249
+Errors: 3 (17 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.0620000362396
+Prediction Time: 0.0319998264313
+Errors: 4 (22 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0310001373291
+Prediction Time: 0.171999931335
+Errors: 4 (22 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... leukemia
+(54L, 7129L) (54L,)
+(18L, 7129L) (18L,)
+[-1  1]
+Epochs = 3
+Learning Rate = 0.1
+Degree = 5
+=== LinearSVM
+Training Time: 0.0319998264313
+Prediction Time: 0.0
+Errors: 5 (28 % of test_dataset)
+=== SVM
+Training Time: 0.0310001373291
+Prediction Time: 0.0160000324249
+Errors: 4 (22 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 4 (22 % of test_dataset)
+=== Perceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 5 (28 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0149998664856
+Prediction Time: 0.0
+Errors: 1 ( 6 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.0780000686646
+Prediction Time: 0.0320000648499
+Errors: 5 (28 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0149998664856
+Prediction Time: 0.0310001373291
+Errors: 7 (39 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... leukemia
+(54L, 7129L) (54L,)
+(18L, 7129L) (18L,)
+[-1  1]
+Epochs = 3
+Learning Rate = 1
+Degree = 1
+=== LinearSVM
+Training Time: 0.0309998989105
+Prediction Time: 0.0
+Errors: 3 (17 % of test_dataset)
+=== SVM
+Training Time: 0.0320000648499
+Prediction Time: 0.0
+Errors: 1 ( 6 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.0149998664856
+Prediction Time: 0.0
+Errors: 2 (11 % of test_dataset)
+=== Perceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 4 (22 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0
+Prediction Time: 0.0160000324249
+Errors: 4 (22 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.0620000362396
+Prediction Time: 0.0320000648499
+Errors: 5 (28 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0149998664856
+Prediction Time: 0.047000169754
+Errors: 6 (33 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... leukemia
+(54L, 7129L) (54L,)
+(18L, 7129L) (18L,)
+[-1  1]
+Epochs = 3
+Learning Rate = 1
+Degree = 3
+=== LinearSVM
+Training Time: 0.047000169754
+Prediction Time: 0.0
+Errors: 2 (11 % of test_dataset)
+=== SVM
+Training Time: 0.0309998989105
+Prediction Time: 0.0
+Errors: 5 (28 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.0150001049042
+Prediction Time: 0.0
+Errors: 3 (17 % of test_dataset)
+=== Perceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 2 (11 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 2 (11 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.0789999961853
+Prediction Time: 0.0149998664856
+Errors: 4 (22 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0310001373291
+Prediction Time: 0.18799996376
+Errors: 6 (33 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... leukemia
+(54L, 7129L) (54L,)
+(18L, 7129L) (18L,)
+[-1  1]
+Epochs = 3
+Learning Rate = 1
+Degree = 5
+=== LinearSVM
+Training Time: 0.0469999313354
+Prediction Time: 0.0
+Errors: 3 (17 % of test_dataset)
+=== SVM
+Training Time: 0.0309998989105
+Prediction Time: 0.0150001049042
+Errors: 4 (22 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 2 (11 % of test_dataset)
+=== Perceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 4 (22 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0160000324249
+Prediction Time: 0.0
+Errors: 2 (11 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.0629999637604
+Prediction Time: 0.0309998989105
+Errors: 7 (39 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0150001049042
+Prediction Time: 0.109999895096
+Errors: 9 (50 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... leukemia
+(54L, 7129L) (54L,)
+(18L, 7129L) (18L,)
+[-1  1]
+Epochs = 3
+Learning Rate = 10
+Degree = 1
+=== LinearSVM
+Training Time: 0.0320000648499
+Prediction Time: 0.0
+Errors: 0 ( 0 % of test_dataset)
+=== SVM
+Training Time: 0.0309998989105
+Prediction Time: 0.0160000324249
+Errors: 3 (17 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 1 ( 6 % of test_dataset)
+=== Perceptron
+Training Time: 0.0150001049042
+Prediction Time: 0.0
+Errors: 1 ( 6 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0
+Prediction Time: 0.0159997940063
+Errors: 4 (22 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.0620000362396
+Prediction Time: 0.0320000648499
+Errors: 8 (44 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0309998989105
+Prediction Time: 0.156000137329
+Errors: 6 (33 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... leukemia
+(54L, 7129L) (54L,)
+(18L, 7129L) (18L,)
+[-1  1]
+Epochs = 3
+Learning Rate = 10
+Degree = 3
+=== LinearSVM
+Training Time: 0.0309998989105
+Prediction Time: 0.0
+Errors: 5 (28 % of test_dataset)
+=== SVM
+Training Time: 0.0310001373291
+Prediction Time: 0.0
+Errors: 1 ( 6 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.0159997940063
+Prediction Time: 0.0
+Errors: 7 (39 % of test_dataset)
+=== Perceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 4 (22 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0
+Prediction Time: 0.0150001049042
+Errors: 4 (22 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.0629999637604
+Prediction Time: 0.0310001373291
+Errors: 5 (28 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0159997940063
+Prediction Time: 0.125
+Errors: 8 (44 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... leukemia
+(54L, 7129L) (54L,)
+(18L, 7129L) (18L,)
+[-1  1]
+Epochs = 3
+Learning Rate = 10
+Degree = 5
+=== LinearSVM
+Training Time: 0.0309998989105
+Prediction Time: 0.0
+Errors: 3 (17 % of test_dataset)
+=== SVM
+Training Time: 0.0320000648499
+Prediction Time: 0.0150001049042
+Errors: 4 (22 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 2 (11 % of test_dataset)
+=== Perceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 2 (11 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0
+Prediction Time: 0.0159997940063
+Errors: 0 ( 0 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.0780000686646
+Prediction Time: 0.0310001373291
+Errors: 3 (17 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0159997940063
+Prediction Time: 0.125
+Errors: 4 (22 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... leukemia
+(54L, 7129L) (54L,)
+(18L, 7129L) (18L,)
+[-1  1]
+Epochs = 5
+Learning Rate = 0.1
+Degree = 1
+=== LinearSVM
+Training Time: 0.0469999313354
+Prediction Time: 0.0
+Errors: 3 (17 % of test_dataset)
+=== SVM
+Training Time: 0.0320000648499
+Prediction Time: 0.0
+Errors: 2 (11 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.0150001049042
+Prediction Time: 0.0
+Errors: 5 (28 % of test_dataset)
+=== Perceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 7 (39 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 7 (39 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.077999830246
+Prediction Time: 0.0320000648499
+Errors: 8 (44 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0309998989105
+Prediction Time: 0.18700003624
+Errors: 8 (44 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... leukemia
+(54L, 7129L) (54L,)
+(18L, 7129L) (18L,)
+[-1  1]
+Epochs = 5
+Learning Rate = 0.1
+Degree = 3
+=== LinearSVM
+Training Time: 0.0310001373291
+Prediction Time: 0.0
+Errors: 2 (11 % of test_dataset)
+=== SVM
+Training Time: 0.0309998989105
+Prediction Time: 0.0160000324249
+Errors: 1 ( 6 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 3 (17 % of test_dataset)
+=== Perceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 6 (33 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0160000324249
+Prediction Time: 0.0
+Errors: 3 (17 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.0929999351501
+Prediction Time: 0.0320000648499
+Errors: 4 (22 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0309998989105
+Prediction Time: 0.125
+Errors: 5 (28 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... leukemia
+(54L, 7129L) (54L,)
+(18L, 7129L) (18L,)
+[-1  1]
+Epochs = 5
+Learning Rate = 0.1
+Degree = 5
+=== LinearSVM
+Training Time: 0.0309998989105
+Prediction Time: 0.0
+Errors: 5 (28 % of test_dataset)
+=== SVM
+Training Time: 0.0310001373291
+Prediction Time: 0.0160000324249
+Errors: 4 (22 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 7 (39 % of test_dataset)
+=== Perceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 5 (28 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 2 (11 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.0789999961853
+Prediction Time: 0.0310001373291
+Errors: 5 (28 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0149998664856
+Prediction Time: 0.0629999637604
+Errors: 6 (33 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... leukemia
+(54L, 7129L) (54L,)
+(18L, 7129L) (18L,)
+[-1  1]
+Epochs = 5
+Learning Rate = 1
+Degree = 1
+=== LinearSVM
+Training Time: 0.0309998989105
+Prediction Time: 0.0
+Errors: 2 (11 % of test_dataset)
+=== SVM
+Training Time: 0.0320000648499
+Prediction Time: 0.0
+Errors: 5 (28 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.0150001049042
+Prediction Time: 0.0
+Errors: 1 ( 6 % of test_dataset)
+=== Perceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 1 ( 6 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0
+Prediction Time: 0.0159997940063
+Errors: 2 (11 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.0620000362396
+Prediction Time: 0.0320000648499
+Errors: 4 (22 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0150001049042
+Prediction Time: 0.0939998626709
+Errors: 6 (33 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... leukemia
+(54L, 7129L) (54L,)
+(18L, 7129L) (18L,)
+[-1  1]
+Epochs = 5
+Learning Rate = 1
+Degree = 3
+=== LinearSVM
+Training Time: 0.0469999313354
+Prediction Time: 0.0
+Errors: 3 (17 % of test_dataset)
+=== SVM
+Training Time: 0.0310001373291
+Prediction Time: 0.0
+Errors: 3 (17 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.0149998664856
+Prediction Time: 0.0
+Errors: 2 (11 % of test_dataset)
+=== Perceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 2 (11 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0
+Prediction Time: 0.0160000324249
+Errors: 1 ( 6 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.0629999637604
+Prediction Time: 0.0310001373291
+Errors: 7 (39 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0149998664856
+Prediction Time: 0.0940001010895
+Errors: 4 (22 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... leukemia
+(54L, 7129L) (54L,)
+(18L, 7129L) (18L,)
+[-1  1]
+Epochs = 5
+Learning Rate = 1
+Degree = 5
+=== LinearSVM
+Training Time: 0.0309998989105
+Prediction Time: 0.0
+Errors: 3 (17 % of test_dataset)
+=== SVM
+Training Time: 0.0310001373291
+Prediction Time: 0.0159997940063
+Errors: 4 (22 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 4 (22 % of test_dataset)
+=== Perceptron
+Training Time: 0.0160000324249
+Prediction Time: 0.0
+Errors: 4 (22 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 3 (17 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.0780000686646
+Prediction Time: 0.0309998989105
+Errors: 6 (33 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0310001373291
+Prediction Time: 0.109999895096
+Errors: 6 (33 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... leukemia
+(54L, 7129L) (54L,)
+(18L, 7129L) (18L,)
+[-1  1]
+Epochs = 5
+Learning Rate = 10
+Degree = 1
+=== LinearSVM
+Training Time: 0.0309998989105
+Prediction Time: 0.0
+Errors: 6 (33 % of test_dataset)
+=== SVM
+Training Time: 0.0320000648499
+Prediction Time: 0.0150001049042
+Errors: 2 (11 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 4 (22 % of test_dataset)
+=== Perceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 8 (44 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0159997940063
+Prediction Time: 0.0
+Errors: 1 ( 6 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.0780000686646
+Prediction Time: 0.0160000324249
+Errors: 4 (22 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0150001049042
+Prediction Time: 0.0469999313354
+Errors: 5 (28 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... leukemia
+(54L, 7129L) (54L,)
+(18L, 7129L) (18L,)
+[-1  1]
+Epochs = 5
+Learning Rate = 10
+Degree = 3
+=== LinearSVM
+Training Time: 0.0320000648499
+Prediction Time: 0.0
+Errors: 2 (11 % of test_dataset)
+=== SVM
+Training Time: 0.0309998989105
+Prediction Time: 0.0
+Errors: 5 (28 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.0160000324249
+Prediction Time: 0.0
+Errors: 1 ( 6 % of test_dataset)
+=== Perceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 4 (22 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0
+Prediction Time: 0.0150001049042
+Errors: 3 (17 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.0629999637604
+Prediction Time: 0.0309998989105
+Errors: 5 (28 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0160000324249
+Prediction Time: 0.0780000686646
+Errors: 5 (28 % of test_dataset)
+=+=+=+=+=+=+=+=+=+=+=+=+
+=+=+=+=+=+=+=+=+=+=+=+=+
+Loading Data... leukemia
+(54L, 7129L) (54L,)
+(18L, 7129L) (18L,)
+[-1  1]
+Epochs = 5
+Learning Rate = 10
+Degree = 5
+=== LinearSVM
+Training Time: 0.0319998264313
+Prediction Time: 0.0
+Errors: 2 (11 % of test_dataset)
+=== SVM
+Training Time: 0.0310001373291
+Prediction Time: 0.0149998664856
+Errors: 2 (11 % of test_dataset)
+=== SklearnPercepton
+Training Time: 0.0
+Prediction Time: 0.0160000324249
+Errors: 1 ( 6 % of test_dataset)
+=== Perceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 2 (11 % of test_dataset)
+=== VotedPerceptron
+Training Time: 0.0
+Prediction Time: 0.0
+Errors: 2 (11 % of test_dataset)
+=== KernelPerceptron
+Training Time: 0.0780000686646
+Prediction Time: 0.0379998683929
+Errors: 5 (28 % of test_dataset)
+=== KernelVotedPerceptron
+Training Time: 0.0170001983643
+Prediction Time: 0.125
+Errors: 7 (39 % of test_dataset)
