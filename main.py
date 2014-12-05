@@ -8,14 +8,14 @@ import math
 from sklearn import svm, linear_model
 from sklearn.datasets import load_iris, fetch_mldata
 from sklearn.cross_validation import train_test_split
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 from collections import defaultdict
 
-# DATASET_NAME = 'MNIST original'	# Big Dataset, Multiclass
+DATASET_NAME = 'MNIST original'	# Big Dataset, Multiclass
 # DATASET_NAME = 'iris'	# Small Dataset, Multiclass
 # DATASET_NAME = 'australian'	# Medium Dataset, Binary
 # DATASET_NAME = 'SensIT Vehicle (combined)'
-DATASET_NAME = 'leukemia'	# Small Dataset, High Dimension, Binary
+# DATASET_NAME = 'leukemia'	# Small Dataset, High Dimension, Binary
 # DATASET_NAME = 'WINE'
 # DATASET_NAME = 'WINEQUALITY'
 # DATASET_NAME = 'SPECT'
@@ -54,19 +54,18 @@ def main(epoch):
 	print "Learning Rate =", RATE
 	print "Degree =", DEGREE
 	errors = {}
-	exit()
 
-	print "=== LinearSVM"
-	clf = svm.LinearSVC()
-	train(clf, x_train, y_train)
-	e = test(clf, x_test, y_test)
-	errors["LinearSVM"] = e
+#	print "=== LinearSVM"
+#	clf = svm.LinearSVC()
+#	train(clf, x_train, y_train)
+#	e = test(clf, x_test, y_test)
+#	errors["LinearSVM"] = e
 
-	print "=== SVM"
-	clf = svm.SVC()
-	train(clf, x_train, y_train)
-	e = test(clf, x_test, y_test)
-	errors["SVM"] = e
+#	print "=== SVM"
+#	clf = svm.SVC()
+#	train(clf, x_train, y_train)
+#	e = test(clf, x_test, y_test)
+#	errors["SVM"] = e
 
 	print "=== SklearnPercepton"
 	clf = linear_model.Perceptron()
@@ -88,27 +87,27 @@ def main(epoch):
 	e = test(clf, x_test, y_test)
 	errors["VotedPerceptron"] = e
 
-	print "=== KernelPerceptron"
+#	print "=== KernelPerceptron"
 	# clf = KernelPerceptron(linear)
-	clf = MultiClassifier(KernelPerceptron, epoch)
-	train(clf, x_train, y_train)
-	e = test(clf, x_test, y_test)
-	errors["KernelPerceptron"] = e
+#	clf = MultiClassifier(KernelPerceptron, epoch)
+#	train(clf, x_train, y_train)
+#	e = test(clf, x_test, y_test)
+#	errors["KernelPerceptron"] = e
 
-	print "=== KernelVotedPerceptron"
+#	print "=== KernelVotedPerceptron"
 	# clf = KernelVotedPerceptron(linear)
-	clf = MultiClassifier(KernelVotedPerceptron, epoch)
-	train(clf, x_train, y_train)
-	e = test(clf, x_test, y_test)
-	errors["KernelVotedPerceptron"] = e
+#	clf = MultiClassifier(KernelVotedPerceptron, epoch)
+#	train(clf, x_train, y_train)
+#	e = test(clf, x_test, y_test)
+#	errors["KernelVotedPerceptron"] = e
 
 	return errors
 
 if __name__ == '__main__':
 	graphs = defaultdict(list)
-	plt.title('Epoch Effect')
-	plt.axis([1, 10, 0, 30])
-	global GLOBAL_EPOCH
+#	plt.title('Epoch Effect')
+#	plt.axis([1, 10, 0, 30])
+#	global GLOBAL_EPOCH
 
 	for e in [1,3,5]:
 		for r in [0.1]:
@@ -116,16 +115,17 @@ if __name__ == '__main__':
 				GLOBAL_EPOCH = e
 				RATE = r
 				DEGREE = d
-				# print "=+=+=+=+=+=+=+=+=+=+=+=+"
-				# print "=+=+=+=+=+=+=+=+=+=+=+=+"
+				print "=+=+=+=+=+=+=+=+=+=+=+=+"
+				print "=+=+=+=+=+=+=+=+=+=+=+=+"
 				errors = main(e)
 				for k,v in errors.iteritems():
 					graphs[k].append((e, v))
+	print graphs
 
-	for k,v in graphs.iteritems():
-		if k == "KernelVotedPerceptron": v = graphs["VotedPerceptron"]
-		x = [i[0] for i in v]
-		y = [i[1] for i in v]
-		plt.plot(x, y, label=k)
-	plt.legend()
-	plt.show()
+#	for k,v in graphs.iteritems():
+#		if k == "KernelVotedPerceptron": v = graphs["VotedPerceptron"]
+#		x = [i[0] for i in v]
+#		y = [i[1] for i in v]
+#		plt.plot(x, y, label=k)
+#	plt.legend()
+#	plt.show()
